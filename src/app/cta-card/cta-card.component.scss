@@ -1,0 +1,70 @@
+@import '../../bootstrap-imports';
+
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../../assets/img/Footer-new.webp);
+  color: black;
+  border-radius: 40px;
+  padding: 24px;
+  gap: 40px;
+  // max-width: 1200px;
+  margin-bottom: 64px;
+  background-size: cover;
+  background-position: center center;
+
+  @include media-breakpoint-up(lg) {
+    padding: 63px;
+    margin-bottom: 80px;
+  }
+   &.no-margin {
+    margin-bottom: 0 !important;
+  }
+}
+
+.card-left {
+  flex: 1;
+}
+
+.card-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-right {
+  flex: 1;
+}
+
+.card-description {
+  font-size: 1rem;
+  margin-bottom: 24px !important;
+  line-height: 1.6;
+}
+
+.card-button {
+  padding: 12px 24px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #333;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+  }
+
+  .card-heading {
+    font-size: 2.25rem;
+  }
+}

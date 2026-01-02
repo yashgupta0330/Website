@@ -1,0 +1,176 @@
+@import "../bootstrap-imports";
+
+.modal {
+
+    p {
+        font-size: 13px;
+        line-height: 1.4;
+        letter-spacing: 0.3px;
+        margin-bottom: 16px;
+
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 3px;
+        line-height: 1.4;
+        font-weight: 600;
+
+    }
+
+    .modal-dialog {
+        max-width: 40em;
+        height: 80%;
+
+        .modal-content {
+
+            .modal-header {
+                position: relative;
+                border-bottom: none;
+                padding: 12px;
+
+                h1 {
+                    width: 80%;
+                    font-weight: 500;
+                }
+
+                .btn-close {
+                    // align-self: flex-start;
+                    position: absolute;
+                    top: 22px;
+                    right: 22px;
+                    scale: 1.1;
+                    z-index: 100;
+                    padding: 0;
+                }
+            }
+
+            .modal-body {
+                padding-right: 1.5rem;
+                padding-top: 0;
+
+                ul {
+                    margin-bottom: 16px;
+                    list-style-type: circle;
+
+                    li {
+                        font-size: 13px;
+                        line-height: 1.4;
+                        letter-spacing: 0.3px;
+                        margin-bottom: 6px;
+
+                    }
+                }
+
+
+            }
+
+            .modal-footer {
+                border: 0;
+                // padding-top: 8px;
+                // padding-bottom: 8px;
+                justify-content: center;
+                box-shadow: 0 0 2px 0px var(--bs-modal-footer-border-color);
+
+                .btn {
+                    --bs-btn-padding-x: 24px;
+                    font-size: 14px;
+
+                    &:hover {
+                        border: solid 1px #121212;
+                    }
+
+                    &:active,
+                    &:focus-visible {
+                        border: solid 1px #121212;
+                        background: #121212;
+                        box-shadow: none;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+#liveToastBtn {
+    border-radius: 2rem;
+    right: 1rem;
+    bottom: 1rem;
+    color: transparent;
+    height: 50px;
+    width: 200px;
+    z-index: 1999;
+
+    img {
+        padding: 0;
+        width: 100%;
+        position: absolute;
+        left: 0.5px;
+        top: -2px;
+    }
+}
+
+.toast-container {
+    padding: 1rem;
+    z-index: 1000;
+
+    @include media-breakpoint-up(md) {
+        padding: 1.5rem;
+    }
+    #liveToast {
+        z-index: 1001;
+        max-width: 250px;
+        max-height: 200px;
+        background-color: #eee;
+        border-radius: 18px;
+        overflow: hidden;
+        .toast-header {
+            padding: 1rem 0 4px;
+
+            img {
+                max-width: 75%;
+            }
+
+            .btn-close {
+                scale: 1.1;
+                position: absolute;
+                padding: 0;
+                right: 18px;
+                top: 8px;
+
+                &:focus {
+                    box-shadow: none;
+                    border: 0;
+                }
+            }
+        }
+        .toast-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 8px 24px;
+
+            p {
+                font-size: 0.8rem;
+                cursor: pointer;
+                text-decoration: underline;
+                // padding: 4px 24px;
+            }
+
+            button {
+                border: solid #121212 1px;
+                margin: 4px;
+                padding: 6px 24px;
+
+                font-size: small;
+
+                a {
+                    text-decoration: none;
+                    color: #121212;
+                }
+            }
+        }
+
+    }
+}

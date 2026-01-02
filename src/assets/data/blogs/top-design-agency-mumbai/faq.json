@@ -1,0 +1,32 @@
+{
+  "faqs": [
+    {
+      "question": "1. Why should I consider agencies outside Mumbai for my UX project?",
+      "answer": 
+        "Location-independent agencies often provide superior value by investing in design excellence rather than expensive office spaces. You get the same quality without paying Mumbai's 40-60% location premium, plus often receive more personalized attention from founders who remain actively involved in projects."
+    },
+    {
+      "question": "2. How do I know if an agency's founders will stay involved throughout my project?",
+      "answer": 
+        "Ask specific questions during consultation: Will I have direct access to founders throughout the project? How many concurrent projects do founders personally oversee? Can I speak with recent clients about their founder interaction experience? Agencies like Anarish guarantee founder involvement because their model depends on it."
+    },
+
+    {
+      "question": "3. What's the real difference between Mumbai agencies and specialized firms?",
+      "answer": 
+        "Mumbai agencies excel at corporate credentials and brand association but often struggle with personalized attention due to scale. Specialized firms like Anarish focus on fewer clients with deeper involvement, resulting in faster delivery, lower costs, and more customized solutions."
+    },
+
+    {
+      "question": "4. How much can I save by choosing a specialized agency over a Mumbai firm?",
+      "answer": 
+        "Typically 40-60% savings on total project cost. For a ₹5 lakh Mumbai project, you might pay ₹2-3 lakhs with a specialized agency while receiving comparable or superior quality due to focused attention and lower overhead costs." 
+    },
+
+     {
+      "question": "5. Will working with a smaller agency affect my project quality?",
+      "answer": 
+        "Often, the opposite occurs. Smaller, specialized agencies typically provide higher quality because founders personally oversee work, teams aren't stretched across dozens of projects, and the agency's reputation depends on every single client's success rather than portfolio volume."
+    }
+  ]
+}

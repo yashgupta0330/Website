@@ -1,0 +1,16 @@
+// Breadcrumb link style override
+.breadcrumb a {
+	color: #111 !important;
+	text-decoration: none !important;
+	border-bottom: none !important;
+	box-shadow: none !important;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus,
+.breadcrumb a:active {
+	color: #111 !important;
+	text-decoration: none !important;
+	border-bottom: none !important;
+	box-shadow: none !important;
+}
+@import '../design.component.scss';

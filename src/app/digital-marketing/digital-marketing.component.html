@@ -1,0 +1,579 @@
+<app-internal-loader></app-internal-loader>
+<main class="">
+    <section class="masthead strategy ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column  ">
+                    <div class="outer mb-4 mb-lg-0 mb-md-3">
+                        <div class="breadcrumb ">
+                            <p>Solutions > <span class="current-page">Digital Marketing</span></p>
+                        </div>
+                        <h1>
+                            Marketing That Connects, Converts, and Grows With You.
+                        </h1>
+                        <p class="sub-heading">
+                            We help brands reach the right people with the right message using strategy, creativity,
+                            and smart data to build real results, not vanity metrics.
+                        </p>
+                        <button class="btn btn-primary btn-style" routerLink="/contact-us">
+                            Book Your Strategy Call
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-6 position-relative mt-3 mt-lg-0">
+                    <div class="img-cap">
+                        <picture>
+                            <img src="/assets/img/main/saas-design/Hero banner.webp" class="img-fluid" alt="Design">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands">
+        <div class="container">
+            <div class="brand-carousel">
+
+                <h2 class="carousel-header ">User-Centered Design for Impactful Brands </h2>
+
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-slide" *ngFor="let logo of logos.concat(logos)">
+                            <img [src]="logo" alt="Partner Logo" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sass-design">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6  col-xl-6 col-12 mb-4 mb-lg-0 ">
+                    <img src="/assets/img/main/saas-design/2 image.webp" class="img-fluid" alt="Brand-strategy">
+                </div>
+                <div class="col-lg-6  col-xl-6 col-12 brand-strategy-inner-col">
+                    <div class="one">
+                        <p class="section-heading-tag">Overview</p>
+                        <h2 class="service-header section-header">Digital Marketing That Moves the Needle</h2>
+                        <p class="service-inner-para">
+                            We design data-backed marketing strategies and content that grab attention, drive
+                            engagement, and fuel growth. Whether you're building awareness or converting leads, our
+                            campaigns are crafted for impact and measurable ROI.
+                        </p>
+                    </div>
+                    <div class="two">
+                        <p class="h4">Solving Growth Problems Across Channels</p>
+                        <div class="row">
+                            <div class="col-lg-4 col-xl-4 col-12 d-flex flex-column mb-3 mb-lg-0 gap-3">
+                                <div class="ist-item d-flex gap-2">
+                                    <img src="/assets/img/main/saas-design/SaaS Design That’s Built/Financial Apps.svg"
+                                        alt="icon" class="img-fluid">
+                                    <p>
+                                        Performance Marketing
+                                    </p>
+                                </div>
+                                <div class="ist-item d-flex gap-2">
+                                    <img src="/assets/img/main/saas-design/SaaS Design That’s Built/Educational Apps.svg"
+                                        alt="icon" class="img-fluid">
+                                    <p>
+                                        Social Media Strategy
+                                    </p>
+                                </div>
+
+
+                            </div>
+                            <div class="col-lg-4 col-xl-4 col-12 d-flex flex-column mb-3 mb-lg-0 gap-3">
+                                <div class="ist-item d-flex gap-2">
+                                    <img src="/assets/img/main/saas-design/SaaS Design That’s Built/HR Tech.svg"
+                                        alt="icon" class="img-fluid">
+                                    <p>
+                                        Content & Copywriting
+                                    </p>
+                                </div>
+                                <div class="ist-item d-flex gap-2">
+                                    <img src="/assets/img/main/saas-design/SaaS Design That’s Built/Finance.svg"
+                                        alt="icon" class="img-fluid">
+                                    <p>
+                                        Email Marketing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-xl-4 col-12 d-flex flex-column gap-3">
+                                <div class="ist-item d-flex gap-2">
+                                    <img src="/assets/img/main/saas-design/SaaS Design That’s Built/Food Ordering.svg"
+                                        alt="icon" class="img-fluid">
+                                    <p>
+                                        SEO/SEM Campaigns
+                                    </p>
+                                </div>
+
+                                <div class="ist-item d-flex gap-2">
+                                    <img src="/assets/img/main/saas-design/SaaS Design That’s Built/Facilities Management App.svg"
+                                        alt="icon" class="img-fluid">
+                                    <p>
+                                        Analytics & Optimization
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process bg-white">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-start ">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-5 col-xl-5 col-12">
+                        <div class="work-header">
+
+                            <div class="our-work">
+                                <p class="section-heading-tag">Our Process</p>
+                            </div>
+                            <h2 class="section-header">
+                                A Clear Path from Strategy to Scale </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-12">
+
+                        <div class="buzz">
+                            <p class="Process-para mb-0">
+                                We follow a proven marketing process that brings clarity and results. From understanding
+                                your goals to optimizing for ROI, we guide you every step of the way.
+                            </p>
+
+                            <a type="button" class="btn-link mt-4 d-inline-block" [routerLink]="['/portfolio']">
+                                Let's Build Together
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                    fill="none">
+                                    <path d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5" stroke="#121212"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+            <div class="section-content pt-4 pt-lg-5 ">
+
+                <!-- ✅ Mobile View Carousel -->
+                <div id="cardCarouselMobile" class="carousel slide d-block d-md-none" data-bs-ride="carousel"
+                    data-bs-interval="3000">
+
+                    <div class="carousel-inner">
+
+                        <!-- Card 1 -->
+                        <div class="carousel-item active">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="step"><span class="step-1">Step 1</span></div>
+                                    <p class="h5 card-title">Discover & Define</p>
+                                    <p>Understand your brand, goals, and customers to craft a tailored strategy.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="carousel-item">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="step"><span class="step-2">Step 2</span></div>
+                                    <p class="h5 card-title">Plan the Strategy</p>
+                                    <p>
+                                        Build a performance-focused plan that aligns with your audience and business
+                                        growth.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="carousel-item">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="step"><span class="step-3">Step 3</span></div>
+                                    <p class="h5 card-title">Execute the Campaigns</p>
+                                    <p>
+                                        Launch campaigns across relevant channels with creatives that convert.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="carousel-item">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="step"><span class="step-4">Step 4</span></div>
+                                    <p class="h5 card-title">Measure & Optimize</p>
+                                    <p>Analyze performance, gather insights, and continuously optimize for better
+                                        results.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ✅ Desktop Grid View -->
+                <div class="row gy-2 gy-xl-4  d-none d-md-flex">
+
+                    <div class="col-md-6 col-lg-3 col-12 mb-4 mb-lg-0 d-flex">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="step"><span class="step-1">Step 1</span></div>
+                                <p class="h5 card-title">Discover & Define</p>
+                                <p>Understand your brand, goals, and customers to craft a tailored strategy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-12 mb-4 mb-lg-0 d-flex">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="step"><span class="step-2">Step 2</span></div>
+                                <p class="h5 card-title">Plan the Strategy</p>
+                                <p>
+                                    Build a performance-focused plan that aligns with your audience and business growth.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-12  d-flex ">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="step"><span class="step-3">Step 3</span></div>
+                                <p class="h5 card-title">Execute the Campaigns</p>
+                                <p>
+                                    Launch campaigns across relevant channels with creatives that convert.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-12  d-flex">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="step"><span class="step-4">Step 4</span></div>
+                                <p class="h5 card-title">Measure & Optimize</p>
+                                <p>Analyze performance, gather insights, and continuously optimize for better results.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="work pb-0">
+        <div class="container">
+            <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 gap-md-2">
+                <div class="work-header">
+                    <div class="our-work">
+                        <p class="section-heading-tag">Our Work</p>
+                    </div>
+                    <h2 class="section-header mb-0">
+                        Impactful UX Strategy Case Studies
+                    </h2>
+                </div>
+
+                <a type="button" class="btn-link mt-4 d-inline-block" [routerLink]="['/portfolio']">
+                    View All
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5" stroke="#121212" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+            <div class="section-content pt-4 pt-lg-5">
+                <div class="row">
+                    <div class="col-12 col-xl-6 col-lg-6 mb-4" *ngFor="let card of getCardsByIds(work_cards)">
+                        <div class="card rounded-4 h-100" [attr.data-card-id]="card.id">
+                            <!-- Card Image/Video Section -->
+                            <div class="bg-light rounded-4">
+                                <!-- Show video for autonative-ai -->
+                                <ng-container *ngIf="card.id === 'autonative-ai'; else imageBlock">
+                                    <video #portfolioVideo class="w-100 rounded-4" autoplay muted loop playsinline>
+                                        <source src="/assets/img/main/strategy/Autonerve-AI-Animation.mp4"
+                                            type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </ng-container>
+                                <ng-template #imageBlock>
+                                    <!-- Desktop Image -->
+                                    <img [src]="card['bg-img']" [alt]="card.title"
+                                        class="img-fluid w-100 d-none d-md-block" />
+                                    <!-- Mobile Image -->
+                                    <img [src]="card.img" [alt]="card.title"
+                                        class="img-fluid w-100 d-block d-md-none" />
+                                </ng-template>
+                            </div>
+                            <div class="p-4">
+                                <h4 class="fw-bold mb-2">{{ card.title }}</h4>
+                                <p class="text-muted mb-3">{{ card.summary }}</p>
+                                <div class="badges-wrapper d-flex gap-2">
+                                    <div class="badge badge-work" *ngFor="let tag of card.tags">
+                                        {{ tag }}
+                                    </div>
+                                </div>
+
+                                <a class="btn-link mt-4 d-inline-block" [routerLink]="['/portfolio', card.url.slice(1)]"
+                                    (click)="onCaseStudyClick(card.id)">
+                                    View Case Study
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                        fill="none">
+                                        <path d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5" stroke="#121212"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process bg-white">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-start ">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-5 col-xl-5 col-12">
+                        <div class="work-header">
+
+                            <div class="our-work">
+                                <p class="section-heading-tag">Why Choose Us</p>
+                            </div>
+                            <h2 class="section-header">
+                                We’re Not Just an Agency — We’re Your Growth Partner.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-12">
+
+                        <div class="buzz">
+                            <p class="Process-para mb-0">
+                                From research to rollout, we collaborate closely to create digital products that
+                                actually work.
+                            </p>
+
+                            <a type="button" class="btn-link mt-4 d-inline-block" [routerLink]="['/portfolio']">
+                                Start Your Project
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                    fill="none">
+                                    <path d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5" stroke="#121212"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content pt-4 pt-lg-5">
+                <div class="wrapper">
+
+                    <div class="row gy-2 gy-xl-4">
+
+                        <div class="col-md-6 col-lg-3 col-12 mb-4 mb-lg-0 d-flex">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="mb-4">
+                                        <img src="/assets/img/main/saas-design/We’re not just a design Icon/1.svg"
+                                            alt="icon" class="img-fluid card-icon">
+                                    </div>
+                                    <p class="h5 card-title">Audience First</p>
+                                    <p>
+                                        We design strategies grounded in who your customers really are.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6 col-lg-3 col-12 mb-4 mb-lg-0 d-flex">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="mb-4">
+                                        <img src="/assets/img/main/saas-design/We’re not just a design Icon/2.svg"
+                                            alt="icon" class="img-fluid card-icon">
+                                    </div>
+                                    <p class="h5 card-title">Story-Led Messaging:</p>
+                                    <p>
+                                        Engaging creatives built to inspire clicks and conversions.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-12 mb-4 mb-lg-0 d-flex ">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="mb-4">
+                                        <img src="/assets/img/main/saas-design/We’re not just a design Icon/3.svg"
+                                            alt="icon" class="img-fluid card-icon">
+                                    </div>
+                                    <p class="h5 card-title">Performance Driven</p>
+                                    <p>
+                                        Every campaign is measured and optimized — no vanity metrics.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6 col-lg-3 col-12 mb-4 mb-lg-0 d-flex">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="mb-4">
+                                        <img src="/assets/img/main/saas-design/We’re not just a design Icon/4.svg"
+                                            alt="icon" class="img-fluid card-icon">
+                                    </div>
+                                    <p class="h5 card-title">Scalable Growth</p>
+                                    <p>Systems built to grow with your business, not against it.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 gap-md-2 mb-4 mb-md-0 ">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-5 col-xl-5 col-12">
+                        <div class="work-header">
+                            <div class="our-work">
+                                <p class="section-heading-tag">How Design Fuels Growth</p>
+                            </div>
+                            <h2 class="section-header">
+                                Great Marketing Isn’t Just Ads
+                                It’s Business Growth.
+
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-12">
+                        <div class="buzz">
+                            <p class="buzz-para">A strong marketing system doesn’t just bring in clicks — it delivers
+                                measurable performance across the funnel. Here’s how our work has helped brands grow:
+                            </p>
+
+                            <a type="button" class="btn-link mt-4 d-inline-block" [routerLink]="['/portfolio']">
+                                Start Your Project
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                    fill="none">
+                                    <path d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5" stroke="#121212"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="numbers">
+                            <div class="ist-list">
+                                <div class="ist-child">
+                                    <h3 class=" mb-0">3x</h3>
+                                    <p>Return on Ad Spend (ROAS)</p>
+                                </div>
+                                <div class="ist-child">
+                                    <h3 class="mb-0">+70%</h3>
+                                    <p>Increase in Qualified Leads</p>
+                                </div>
+                            </div>
+                            <div class="ist-list">
+                                <div class="ist-child">
+                                    <h3 class="mb-0">+60%</h3>
+                                    <p>Retargeting Conversions</p>
+                                </div>
+                                <div class="ist-child">
+                                    <h3 class="mb-0">-40%</h3>
+                                    <p>Cost Per Acquisition (CPA) Reduction</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="faq bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-xl-5 col-12 mb-3 mb-lg-0">
+                    <div class="wrap">
+                        <div class="our-work">
+                            <p class="section-heading-tag">Have Queries?</p>
+                        </div>
+                        <h2 class="section-header">
+                            Frequently Asked Questions
+
+                        </h2>
+                        <img src="/assets/img/main/app-design/Group 2018776194.webp" alt="image" class="img-fluid mt-3">
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-7 col-xl-7 align-items-center">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item" *ngFor="let item of faqs; let i = index">
+                            <div class="accordian-inner">
+                                <h2 class="accordion-header" [id]="'heading'+i">
+                                    <button class="accordion-button" [ngClass]="{ 'collapsed': i != 0 }" type="button"
+                                        data-bs-toggle="collapse" [attr.data-bs-target]="'#collapse'+i"
+                                        [attr.aria-expanded]="i == 0 ? 'true' : 'false'"
+                                        [attr.aria-controls]="'collapse'+i">
+                                        {{item.question}}
+                                    </button>
+                                </h2>
+                                <div [id]="'collapse'+i" class="accordion-collapse collapse"
+                                    [ngClass]="{ 'show': i == 0 }" [attr.aria-labelledby]="'heading'+i">
+                                    <div class="accordion-body">
+                                        <div *ngIf="isArray(item.answer); else stringAnswer">
+                                            <ul>
+                                                <li *ngFor="let ans of getAnswers(item.answer)">
+                                                    <span [innerHTML]="formatAnswer(ans)"></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <ng-template #stringAnswer>
+                                            <div [innerHTML]="safeFormatAnswer(item.answer)"></div>
+                                        </ng-template>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>

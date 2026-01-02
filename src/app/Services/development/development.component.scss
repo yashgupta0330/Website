@@ -1,0 +1,877 @@
+  @import '../../../bootstrap-imports';
+  
+  a {
+    color: #111 !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #111 !important;
+      text-decoration: none !important;
+      border-bottom: none !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .breadcrumb {
+    font-weight: 600;
+    margin-bottom: 16px;
+
+    a {
+      color: #111 !important;
+      text-decoration: none !important;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: #111 !important;
+        text-decoration: none !important;
+      }
+    }
+  }
+  .masthead {
+
+    position: relative;
+    overflow: hidden;
+    background-color: #c7e2fe;
+
+
+
+    .breadcrumb {
+      border-bottom: 1px solid black;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+  }
+
+  .img-cap {
+    padding-left: 0;
+
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      justify-content: flex-end;
+      padding-left: 80px;
+    }
+
+    img {
+      border-radius: 12px;
+    }
+  }
+
+  .btn-style {
+    padding: 12px 24px;
+    border-radius: 77px;
+  }
+
+
+  .img-wrap {
+    padding-left: 0;
+
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      justify-content: flex-end;
+      padding-left: 180px;
+    }
+  }
+
+
+
+  @media (max-width:767px) {
+    .strategy {
+      padding: 120px 0 40px;
+    }
+  }
+
+
+
+  @media (max-width:767px) {
+    #brand-strategy {
+      padding: 40px 0;
+    }
+  }
+
+
+  #No-Code-Development {
+    @include media-breakpoint-up(lg) {
+      padding: 20px 64px 80px;
+    }
+
+    .one {
+      @include media-breakpoint-up(lg) {
+        padding-top: 80px;
+      }
+    }
+  }
+
+  #Frontend-Development {
+    @include media-breakpoint-up(lg) {
+      padding: 80px 64px;
+    }
+  }
+
+  #Backend-Development {
+    @include media-breakpoint-up(lg) {
+      padding: 80px 64px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .Brand-strategy-2 {
+      padding: 80px 64px;
+    }
+  }
+
+  @media (max-width:767px) {
+    .Brand-strategy-2 {
+      padding: 40px 0;
+    }
+  }
+
+  @media (max-width:767px) {
+    #ux-strategy {
+      padding: 40px 0;
+    }
+  }
+
+  .slide-2-header {
+    color: #fff;
+    font-family: "Manrope";
+  }
+
+  .buzz {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+
+    @include media-breakpoint-up(lg) {
+      padding-left: 40px;
+      gap: 16px;
+    }
+
+    .Process-para {
+      color: #4d4d4d;
+      font-size: 16px;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 18px;
+      }
+    }
+
+    .buzz-para {
+      font-size: 16px;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .outer {
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+
+
+  section {
+    &.supported-modules {
+      color: #121212;
+
+      p {
+        line-height: 1.6;
+      }
+
+      video {
+        max-width: 71%;
+      }
+    }
+
+    .next-portfolio {
+      background-image: url(../../../assets/img/portfolio/crms/next-hrms.png);
+    }
+  }
+
+  .custom-dropdown {
+    .custom-btn {
+      border: 1px solid #5b4d7a;
+      background-color: transparent;
+      color: #1f1f1f;
+      border-radius: 12px;
+    }
+
+    .dropdown-menu {
+      background-color: #fffaf3;
+      width: 320px;
+    }
+
+    .custom-dropdown-item {
+      background-color: #fffaf3;
+
+      &:hover {
+        background-color: white;
+      }
+
+      .icon-box {
+        width: 48px;
+        height: 48px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: white;
+      }
+
+      .bg-orange {
+        background-color: #fddbcc;
+        color: #d96b3b;
+      }
+
+      .bg-blue {
+        background-color: #dce9fe;
+        color: #3975d9;
+      }
+
+      .bg-purple {
+        background-color: #e3dcfa;
+        color: #7b5bd9;
+      }
+    }
+  }
+
+
+  // sticky subheader code starts 
+
+  .sticky-subheader {
+    position: sticky;
+    top: 0;
+    /* Adjust if you have a navbar above */
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    height: 80px;
+    z-index: 1100;
+  }
+
+  .subnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    /* Matches Figma design */
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .subnav li {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    font-size: 14px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 16px;
+    }
+  }
+
+
+  // .subnav li:active {
+  //   border-bottom: 5px solid #000;
+  // }
+
+
+  .subnav-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    position: relative;
+  }
+
+  .subnav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+  }
+
+
+  // Brand-strategy code starts 
+
+  .current-page {
+    font-weight: 600;
+  }
+
+
+  .section-header {
+    font-weight: 600;
+    max-width: 100%;
+    line-height: 1.3;
+
+    @include media-breakpoint-up(md) {
+      max-width: 80%;
+    }
+  }
+
+  .service-para {
+    margin-bottom: 12px;
+    color: #1c6dbe;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .service-header {
+    font-weight: 600;
+    font-family: "Manrope";
+    margin-bottom: 24px;
+  }
+
+  .service-inner-para {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 24px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 18px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .two {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .brand-strategy-inner-col {
+
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+
+    @include media-breakpoint-up(xs) {
+      padding-top: 36px;
+    }
+
+    @include media-breakpoint-up(sm) {
+      padding-top: 36px;
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-left: 20px;
+      padding-top: 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-left: 80px;
+      padding-top: 0;
+    }
+  }
+
+  .slide-2-para {
+    font-size: 14px;
+    color: #cccccc;
+    font-weight: 400;
+    line-height: 28px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 16px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: 18px;
+    }
+  }
+
+
+  .btn-contact {
+    padding: 4px 0 4px 0;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    flex-shrink: 0;
+    border-bottom: 1px solid #fff;
+
+    @include media-breakpoint-up(md) {
+      font-size: 14px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: 16px;
+    }
+  }
+
+  .slide-2-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+
+
+
+  .cover {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @include media-breakpoint-up(lg) {
+      gap: 80px;
+    }
+  }
+
+  .card {
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    border: 1px solid #ebebeb;
+    flex-grow: 1;
+  }
+
+  .card-body {
+    padding: 24px 18px;
+
+  }
+
+  .card-body p {
+    color: #424242;
+  }
+
+  .card-title {
+    margin-bottom: 12px;
+    color: #121212 !important;
+    font-weight: 600;
+  }
+
+  .cards {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 12px;
+    margin-bottom: 0px;
+
+    @include media-breakpoint-up(xs) {
+      margin-bottom: 24px;
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-left: 24px;
+    }
+
+  }
+
+  .card-icon {
+    border-radius: 9999px;
+    background-color: #C7E2FE;
+    padding: 3px;
+  }
+
+  .card-header h3 {
+    color: #fff;
+    font-size: 18px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 24px;
+    }
+  }
+
+  .card-para p {
+    font-size: 14px;
+    color: #cccccc;
+    font-weight: 400;
+    line-height: 22px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 16px;
+    }
+  }
+
+
+  // thierd slide styles 
+
+  .work {
+    @include media-breakpoint-up(lg) {
+      padding: 80px 64px;
+    }
+  }
+
+  // @media (max-width: 767px) {
+  //   .work {
+  //     padding: 40px 0;
+  //   }
+  // }
+
+  .process {
+    @include media-breakpoint-up(lg) {
+      padding: 80px 64px;
+
+    }
+  }
+
+  .technologies {
+    @include media-breakpoint-up(lg) {
+      padding: 80px 64px;
+
+    }
+  }
+
+
+  .section-header {
+    font-weight: 600;
+
+  }
+
+  .work {
+    background-color: #fafafa;
+  }
+
+  .our-work {
+    margin-bottom: 12px;
+  }
+
+  .our-work p {
+    color: #1c6dbe;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .btn-cap {
+
+
+    @include media-breakpoint-up(md) {
+      font-size: 14px;
+    }
+
+
+  }
+
+  // Brand Strategy Style Ends Here 
+
+  .custom-img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+  .section-heading-tag {
+    color: #1C6DBE;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+
+  // UX Strategy style starts here 
+
+  .Ux-Strategy-Inner-second-col {
+
+    padding-left: 12px;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 36px;
+
+    @include media-breakpoint-up(xs) {
+      padding-top: 36px;
+    }
+
+    @include media-breakpoint-up(sm) {
+      padding-top: 36px;
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-left: 20px;
+      padding-top: 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-left: 80px;
+      padding-top: 0;
+    }
+  }
+
+  .badges-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .badge-work {
+
+    color: #000;
+    margin-top: 0.5rem;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.21px;
+    padding: 4px 12px;
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+    border-radius: 999px;
+
+    @include media-breakpoint-up(xl) {
+      padding: 4px 8px;
+      font-size: 14px;
+    }
+  }
+
+
+
+  .ux-strategy-inner-ist-col {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .card {
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    border: 1px solid #ebebeb;
+  }
+
+  .step {
+    margin-bottom: 24px;
+  }
+
+  .step span {
+    border-radius: 61px;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 600;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 16px;
+    }
+  }
+
+  .step .step-1 {
+    background-color: #f4f0fe;
+    border: 1px solid #f4f0fe;
+    color: #42307D;
+  }
+
+  .step .step-2 {
+    background-color: #fef6fe;
+    border: 1px solid #fef6fe;
+    color: #752476;
+  }
+
+  .step .step-3 {
+    background-color: #f1f9ff;
+    border: 1px solid #f1f9ff;
+    color: #174C9E;
+  }
+
+  .step .step-4 {
+    background-color: #ECFDF3;
+    border: 1px solid #ECFDF3;
+    color: #05603A;
+  }
+
+  .section-content {
+    padding-top: 48px;
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 80px;
+    }
+  }
+
+  .image-style {
+    border-radius: 12px;
+  }
+
+
+
+  common section styling .p-80 {
+    padding: 80px !important;
+  }
+
+  /* Custom horizontal gap between columns (80px) */
+  .gx-80 {
+    --bs-gutter-x: 80px !important;
+  }
+
+  /* Custom 80px Spacing */
+  .p-80 {
+    padding: 80px !important;
+  }
+
+  .gx-80 {
+    --bs-gutter-x: 80px !important;
+  }
+
+  /* 36px Manrope Heading */
+  .section-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+  }
+
+
+
+  /* 18px Inter Para */
+  .section-para {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /* 24px Key Elements Title */
+  .key-elements-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  /* 16px Icon Text */
+  .icon-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  // faq style
+
+  faq-section {
+    background-color: #ffffff;
+
+
+    /* Mobile spacing between accordion text & arrow */
+    @include media-breakpoint-down(md) {
+      .accordion-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px; // Space between text and arrow
+        padding-right: 16px; // Prevent arrow from sticking to edge
+      }
+
+      .accordion-button::after {
+        margin-left: 12px; // Extra breathing space for arrow icon
+      }
+    }
+
+
+    /* LEFT CONTENT */
+    .wrap {
+      @include media-breakpoint-up(lg) {
+        padding-right: 80px; // Adds space on the right side for desktop layout
+      }
+
+      img {
+        margin-top: 24px; // Space between heading and image
+        margin-bottom: 8px; // Small space below the image
+        margin-left: 16px; // Left spacing for mobile and tablet
+
+        @include media-breakpoint-up(lg) {
+          margin-top: 32px; // Increased top spacing on desktop
+          margin-left: 24px; // Increased left spacing on desktop
+        }
+      }
+    }
+
+    .our-work {
+      margin-bottom: 12px;
+    }
+
+    .section-heading-tag {
+      font-size: 14px;
+      font-weight: 500;
+      color: #1c6dc7;
+      margin-bottom: 0;
+    }
+
+    .section-header {
+      font-weight: 600;
+      line-height: 1.3;
+      max-width: 100%;
+
+      @include media-breakpoint-up(md) {
+        max-width: 81%;
+      }
+    }
+
+    /* ACCORDION */
+    .accordion {
+      border-radius: 16px;
+      background: white;
+    }
+
+    .accordion-item {
+      background: white;
+      border: none;
+    }
+
+    .accordian-inner {
+      padding: 20px 12px;
+      border-bottom: 1px solid #121212;
+      right: 10px;
+    }
+
+    .accordion-item:last-child .accordian-inner {
+      border-bottom: none;
+    }
+
+    .accordion-header {
+      display: flex;
+      align-items: center;
+    }
+
+    .accordion-button {
+      background: none;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: left;
+      color: #000;
+      box-shadow: none;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background: none;
+      color: #000;
+    }
+
+    .accordion-collapse {
+      margin-top: 10px;
+    }
+
+    .accordion-body {
+      font-size: 1rem;
+      line-height: 1.6;
+      padding: 0;
+      color: #424242;
+
+      ul {
+        padding-left: 18px;
+        margin: 0;
+
+        li {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }

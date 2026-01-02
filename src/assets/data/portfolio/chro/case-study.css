@@ -1,0 +1,144 @@
+/* Testimonial Modern Section Styles (Bootstrap optimized) */
+.testimonial-modern-section {
+    border-radius: 24px;
+    padding: 48px 32px;
+    color: #fff;
+    margin: 48px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-modern-quote {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+@media (min-width: 992px) {
+    .testimonial-modern-quote {
+        font-size: 1.5rem;
+    }
+}
+.testimonial-modern-avatar-bg {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-modern-avatar-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #fff;
+}
+.testimonial-modern-svg-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    pointer-events: none;
+}
+/* Remove .testimonial-modern-user-row, .testimonial-modern-name, .testimonial-modern-position as these can be handled by Bootstrap classes in HTML */
+@media (min-width: 992px) {
+    .sass-design {
+        padding: 80px 64px;
+    }
+}
+
+@media (min-width: 992px) {
+    .second {
+        padding: 80px 64px;
+    }
+}
+
+@media (min-width: 992px) {
+    .user-persona {
+        padding: 80px 64px;
+    }
+}
+
+.sass-design {
+    background-color: #fafafa;
+}
+
+.user-persona {
+    background-color: #fafafa;
+}
+
+.section-header {
+    max-width: 80%;
+}
+
+.service-inner-para {
+    color: #424242;
+    margin-bottom: 0;
+}
+
+.service-inner-para span {
+    color: #121212;
+}
+
+.one {
+    padding-right: 0;
+}
+
+@media (min-width: 992px) {
+    .one {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-right: 80px;
+    }
+}
+
+.two {
+    padding-left: 0;
+}
+
+@media (min-width: 992px) {
+    .two {
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+    }
+}
+
+.col-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media (min-width: 992px) {
+    .col-wrapper {
+        gap: 60px;
+    }
+}
+
+.new {
+    font-size: 18px;
+}
+
+.client-info {
+    border: 1px solid #121212;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+/* .Row{
+    padding-bottom: 80px;
+} */
+
+.pb-80 {
+    padding-bottom: 80px !important;
+}
+
+
+
+/* <> */
+
+

@@ -1,0 +1,24 @@
+{
+  "faqs": [
+    {
+      "question": "What exactly causes the huge cost difference (₹10,000 vs. ₹20,00,000+)?",
+      "answer": "A. The difference is the amount of custom code and software engineering required. A ₹10,000 site uses free templates (simple web design). A ₹20,00,000+ project uses WordPress as a custom application framework, requiring senior engineers to build bespoke features (e.g., custom CRMs, unique dashboards, complex APIs), making it a true software development project."
+    },
+    {
+      "question": "What three core technology capabilities should a full-service Chandigarh digital partner excel in?",
+      "answer": "A reliable full-service partner must demonstrate expertise across three pillars: modern frontend frameworks such as React and Vue.js, robust backend development using Node.js or Python for scalable APIs, and deep CMS specialization—especially WordPress and WooCommerce—for fast, maintainable web solutions."
+    },
+    {
+      "question": "Why is a well-defined Statement of Work (SOW) critical to preventing scope creep?",
+      "answer": "A precise Statement of Work clearly documents deliverables, timelines, and responsibilities before development begins. This clarity eliminates ambiguity, protects both parties from unplanned feature additions, and prevents budget overruns that often occur when scope is not tightly controlled."
+    },
+    {
+      "question": "What does \"Guaranteed Founder Involvement\" actually ensure on high-impact projects?",
+      "answer": "Guaranteed Founder Involvement means senior leadership—such as founders Charu Maheshwari and Suman—actively supervise key milestones, decision-making, and quality assurance. This ensures strategic continuity and eliminates the risk of experienced leadership disappearing after the sales phase."
+    },
+    {
+      "question": "What is the biggest financial risk of not having an Annual Maintenance Contract (AMC)?",
+      "answer": "Skipping an AMC may seem cost-effective initially, but it exposes businesses to far higher losses from security breaches, downtime, or system failures caused by outdated software. Compared to an annual AMC cost of ₹10,000–₹50,000, recovery from a single incident can be exponentially more expensive."
+    }
+  ]
+}

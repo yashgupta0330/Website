@@ -1,0 +1,29 @@
+{
+    "faqs": [
+      {
+        "question": "What is the 80-20 rule in UI UX?",
+        "answer": "The 80-20 rule (Pareto Principle) in UX states that 80% of users will use only 20% of your features. Focus design efforts on refining the most frequently used features rather than introducing complexity. Also applies to: 80% of problems come from 20% of causes, and 80% of your results come from 20% of your efforts. "
+      },
+      {
+        "question": "Do I need design experience to understand these UX books?",
+        "answer": "No prior design experience required. These books cater to all skill levels.The Design of Everyday Things and Don't Make Me Think are especially beginner-friendly with simple language and real-world examples."
+      },
+      {
+        "question": "My internal team has design skills. Why would I still need an agency? ",
+        "answer": "An agency can provide an unbiased view and specialised expertise that can bring fresh ideas and innovative solutions."
+      },
+      {
+        "question": "What is the 6-3-1 rule in UI design?",
+        "answer": "The 6-3-1 rule is a colour palette guideline for creating visually balanced and appealing interfaces. Use 60% of a dominant neutral colour (backgrounds), 30% of a secondary colour (sections, cards), and 10% of an accent colour (buttons, links, highlights). This creates a visual hierarchy and prevents colour overload while maintaining brand consistency."
+      },
+      {
+        "question": "Can I learn UX in 3 months?",
+        "answer": "You can build a solid foundation in 3 months by learning core concepts, design thinking, and basic tools. However, true proficiency requires 6-12 months of practice and real-world application. Focus on fundamentals first, then practice regularly with feedback from experienced designers."
+      },
+      {
+        "question": "Which UX book should I read first as a complete beginner?",
+        "answer": "Start with The Design of Everyday Things by Donald Norman. It explains fundamental design principles using everyday objects, making complex concepts easy to grasp. Follow with Don't Make Me Think for practical web usability insights."
+      }
+    ]
+  }
+  

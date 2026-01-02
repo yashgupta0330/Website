@@ -1,0 +1,38 @@
+<!-- <div class="portfolio-wrapper">
+    <ng-container *ngIf = "id == '1'">
+       
+        <app-crms></app-crms>
+    </ng-container>
+    <ng-container *ngIf = "id == '2'">
+         <app-hrms></app-hrms>
+    </ng-container>
+    <ng-container *ngIf = "id == '3'">
+        <app-website-design></app-website-design>
+    </ng-container>
+    <ng-container *ngIf = "id == '4'">
+        <app-lms></app-lms>
+    </ng-container>
+    <ng-container *ngIf = "id == '5'">
+        <app-ms></app-ms>
+    </ng-container>
+    <ng-container *ngIf = "id == '6'">
+        <app-digital-marketing></app-digital-marketing>
+    </ng-container>
+</div> -->
+
+
+<div class="portfolio-wrapper">
+    <ng-container *ngIf="id && componentMap[id] as selectedComponent">
+      <ng-container *ngComponentOutlet="selectedComponent"></ng-container>
+    </ng-container>
+    
+    <!-- Debugging output -->
+    <ng-container *ngIf="id">
+      <!-- <p>Current ID: {{ id }}</p> -->
+    </ng-container>
+  
+    <ng-container *ngIf="!id || !componentMap[id]">
+      <p>Invalid selection or missing service ID.</p>
+    </ng-container>
+  </div>
+  

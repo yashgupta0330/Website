@@ -1,0 +1,66 @@
+{
+  "faqs": [
+    {
+      "question": "1. Accessibility in UX design refers to what?",
+      "answer":  "Accessibility in UX design is about designing digital products—apps, websites, platforms—so all people, regardless of visual, auditory, motor, or cognitive disabilities, can use them. It's about providing equal access and usability for everyone."
+      
+    },
+
+    {
+      "question": "2. Why is accessibility so vital in 2025?",
+      "answer": "In 2025, accessibility is a business imperative, legal mandate, and moral obligation. Omitting users with disabilities not only invites litigation but also forecloses audience size. Accessible design enhances SEO, customer loyalty, and overall usability."
+      
+    },
+    {
+      "question": "3. What are the primary accessibility standards designers must adhere to?",
+      "answer": "<p class='mb-1'> The most commonly accepted standard is the Web Content Accessibility Guidelines (WCAG 2.2). Other significant regulations include:</p> <ul> <li> ADA (U.S.) – Enforced on websites and apps. </li><li> Section 508 (U.S.) – For federal agencies and contractors. </li> <li>EN 301 549 (EU) – Apps, docs, and devices. </li> <li> Future: WCAG 3.0 will broaden to AR/VR, IoT, and personalization.</li></ul> "
+    },
+
+     {
+      "question": "4. How do I make my site more accessible?",
+      "answer": "<p class='mb-1'> Begin with these fundamentals:</p> <ul> <li> Make sure there's good color contrast. </li> <li> Add alt text to images.</li> <li>Employ semantic HTML with good headings and labels.</li> <li> Make full keyboard navigation possible.</li><li>Include captions/transcripts on video and audio.</li> <li>Create accessible forms with good error messages.</li></ul> "
+    },
+
+     {
+      "question": "5. Are automated tools enough for accessibility testing?",
+      "answer": "No. Automated tools like Axe, WAVE, or Lighthouse catch many issues, but manual testing and user testing with people with disabilities are essential to uncover real-world barriers."
+    },
+
+    {
+      "question": "6. How does accessibility benefit users without disabilities?",
+      "answer": "<p class='mb-1'>Accessibility helps everyone. Examples:</p> <ul> <li> Captions help in noisy environments.</li> <li> High contrast improves outdoor visibility.</li> <li>Keyboard shortcuts improve workflows for power users.</li></ul> "
+    },
+
+     {
+      "question": "7. What role does AI play in accessibility?",
+      "answer": "<p class='mb-1'>By 2025, AI will increase accessibility with:</p> <ul> <li> Automatic generation of alt text.</li> <li>Live captioning and translation in real time.</li> <li>Speech recognition and adaptive speech technology.</li> <li>Interfaces personalized to adapt to users' needs.</li></ul> "
+    },
+  
+  {
+    "question": "8. What are some practical examples of accessibility in practice?",
+    "answer": [
+      "Shopify: Accessible design systems integrated into store themes.",
+      "Netflix: Individualized captions & audio description.",
+      "Typeform: Testing with disabled individuals.",
+      "John Lewis & Partners: Redesigning checkout made checkout more usable for everyone."
+    ]
+  },
+
+  {
+    "question": "9. What are some challenges teams will experience in adopting accessibility?",
+    "answer": [
+      "Lack of awareness or training.",
+      "Stakeholder resistance (extra cost myth).",
+      "Agile rapid cycles are relegating accessibility to the background.",
+      "Evolving standards."
+    ]
+  },
+
+  {
+      "question": "10. What is the future of accessibility in UX design?",
+      "answer": "<p class='mb-1'>Trends influencing the future are:</p> <ul> <li>WCAG 3.0 incorporating immersive tech.</li> <li>AI-led personalization.</li> <li>Voice and gesture interfaces.</li> <li>Accessibility as a key business differentiator.</li></ul> "
+    }
+
+
+  ]
+}

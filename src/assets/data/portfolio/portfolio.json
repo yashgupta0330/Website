@@ -1,0 +1,410 @@
+{
+  "case-studies": [
+    {
+      "id": "hrms",
+      "display_order": 1,
+      "title": "HRMS",
+      "summary": "Modern and minimal design solutions for HRMS serving 14+ languages and countries.",
+      "tags": ["UI Design", "Front end - Angular", "Multilingual"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/hrms",
+      "bg-img": "/assets/img/HRMS.webp",
+      "img": "/assets/img/HRMS.webp",
+      "detail-page": {
+        "client": "Worklinn",
+        "heading": "HRMS - A Scalable, Multi-Language HRMS for Global Teams",
+        "industry": "Human Resource",
+        "region": "Global",
+        "platform": "Web & Mobile",
+        "tags": [
+          "UI Design",
+          "UI Research",
+          "Human Resource Management System",
+          "Front End Engineering",
+          "SaaS Design"
+        ],
+        "related-cards": ["crms", "fms"]
+      },
+      "page-variants": {
+        "hrms-strategy": {
+          "bg-img": "/assets/img/main/strategy/HRMS_strategy.webp",
+          "img": "/assets/img/main/strategy/HRMS_strategy.webp"
+        },
+        "hrms-development": {
+          "bg-img": "/assets/img/main/development/HRMS ( Development  page  ) (1).webp",
+          "img": "/assets/img/main/development/HRMS ( Development  page  ) (1).webp"
+        }
+      }
+    },
+    {
+      "id": "sort",
+      "display_order": 2,
+      "title": "SORT",
+      "summary": "SORT deals in Supply Chain Optimization, re-engineering and transformation with AI based algorithms",
+      "tags": ["Branding", "Supply Chain", "Artificial Intelligence"],
+      "date": "2025-06-18",
+      "category": "strategy",
+      "url": "/sort",
+      "bg-img": "/assets/img/main/strategy/Sort.webp",
+      "img": "/assets/img/main/strategy/Sort.webp",
+      "detail-page": {
+        "client": "SORT",
+        "heading": "Sort – Designing a Versatile Identity for a Growing Brand",
+        "industry": "Supply chain Management",
+        "region": "Indian Region",
+        "platform": "Mobile App",
+        "case-study-img": "/assets/img/case-study/sort/Sort Branding.webp",
+        "tags": [
+          "UI/UX Design",
+          "Front End Engineering",
+          "SaaS Design",
+          "Research",
+          "Human Resourse"
+        ],
+        "related-cards": ["crms", "hrms"]
+      }
+    },
+    {
+      "id": "crms",
+      "display_order": 3,
+      "title": "CRMS",
+      "summary": "SaaS Application User Experience and Design for CRMS serving appliances industry",
+      "tags": ["CRM Platform UI", "B2B Software Design", "Small & Big Appliances Industry"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/crms",
+      "bg-img": "/assets/img/CRMS (1).webp",
+      "img": "/assets/img/CRMS (1).webp",
+      "detail-page": {
+        "client": "ServitiumCRM",
+        "heading": "CRMS - Platform That Empowers Service Teams with Real-Time Visibility",
+        "industry": "Appliances ",
+        "case-study-img": "/assets/img/case-study/crms/1.webp",
+        "region": "India",
+        "platform": "Web & Mobile App",
+        "tags": ["UI/UX Design", "User Research", "Appliances", "SaaS Design"],
+        "related-cards": ["hrms", "fms"]
+      },
+      "page-variants": {
+        "crms-app": {
+          "bg-img": "/assets/img/main/app-design/CRMS App design.webp",
+          "img": "/assets/img/main/app-design/CRMS App design.webp"
+        }
+      }
+    },
+    {
+      "id": "fms",
+      "display_order": 4,
+      "title": "FMS",
+      "summary": "An all-in-one facility management system to streamline maintenance, track assets, and ensure smooth operations across your organization",
+      "tags": ["SaaS UI Design", "Asset Lifecycle Management UI", "Real Time Monitoring Dashboard"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/fms",
+      "bg-img": "/assets/img/main/strategy/fmsCard.png",
+      "img": "/assets/img/main/strategy/fmsCard.png",
+      "detail-page": {
+        "client": "Crew",
+        "heading": "FMS - Enhancing Operational Excellence in Across  Corporates and Hospitality Sites ",
+        "industry": "Varied",
+        "region": "APAC Region",
+        "case-study-img": "/assets/img/case-study/FMS/fms-banner.webp",
+        "platform": "Web & Mobile",
+        "tags": ["Field Ops", "Mobile UI", "Dispatching"],
+        "related-cards": ["crms", "hrms"]
+      }
+    },
+   
+    {
+      "id": "remit",
+      "display_order": 7,
+      "title": "Remit4X",
+      "summary": "User-friendly forex exchange site for real-time rates.",
+      "tags": ["UI Design", "Responsive Website", "Forex Exchange Rate"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/remit",
+      "bg-img": "/assets/img/Remit.webp",
+      "img": "/assets/img/Remit.webp",
+      "detail-page": {
+        "client": "Remit4X",
+        "heading": "Remit4X - Trusted Source for UAE Exchange Rates",
+        "industry": "UAE - Expats and Foreign Workers ",
+        "region": "UAE, ASIA",
+        "case-study-img": "/assets/img/Remit heri img.jpg",
+        "platform": "Website",
+        "tags": [
+          "Forex Exchange",
+          "Website",
+          "UX Research",
+          "Responsive Design"
+        ],
+        "related-cards": ["crms", "fms"]
+      }
+    },
+    {
+      "id": "chro",
+      "display_order": 8,
+      "title": "CHRO",
+      "summary": "CHRO event bringing together top industry leaders to exchange insights on shaping the future of work, leadership, and organizational transformation.",
+      "tags": ["Website Development", " Print Collaterals", "Human Resource Leadership"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/chro",
+      "bg-img": "/assets/img/CHRO.webp",
+      "img": "/assets/img/CHRO.webp",
+      "detail-page": {
+        "client": "PHDCCI",
+        "Audience": "People Operations Leaders",
+        "heading": "CHRO— Future Proofing Business",
+        "region": "India",
+        "case-study-img": "/assets/img/CHRO Hero Img.jpg",
+        "platform": "Website & Print Media",
+        "tags": [
+          "Event Branding",
+          "Digital Assets",
+          "Landing Page"
+        ]
+      }
+    },
+
+    {
+      "id": "lms",
+      "display_order": 9,
+      "title": "LMS",
+      "summary": "Powerful branding for the LMS that inspires trust, engages learners, and elevates learning journey",
+      "tags": ["Design System", " Learning Management", "Brand Identity"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/lms",
+      "bg-img": "/assets/img/portfolio/lms/bg.webp",
+      "img": "/assets/img/portfolio/lms/bg.webp",
+      "detail-page": {
+        "client": "Anarish Innovations",
+        "heading": "LMS",
+        "industry": "SaaS - Software as a Service",
+        "region": "ASEAN, Australia & USA",
+        "platform": "Website",
+        "tags": ["Design System", " Learning Management", "Brand Identity"]
+      }
+    },
+
+    {
+      "id": "finc",
+      "display_order": 10,
+      "title": "Finc",
+      "summary": "An Outlook plugin to organize and track notes—built with human insights, not AI.",
+      "tags": ["UI Design", "Outlook Addin", "Email Management"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/finc",
+      "bg-img": "/assets/img/portfolio/finc/bg.png",
+      "img": "/assets/img/portfolio/finc/bg.png",
+      "detail-page": {
+        "heading": "Finc — From Brand Expression to Product Experience",
+        "client": "Finc",
+        "industry": "Email Management",
+        "region": "Global",
+        "case-study-img": "assets/img/Finc Hero img.jpg",
+        "platform": "Outlook Add-in & Web (Landing Page)",
+        "tags": [
+          "UI/UX Design",
+          "Email Management",
+          "Brand Identity",
+          "Landing Page",
+          "Outlook Add-in"
+        ]
+      },
+      "page-variants": {
+        "finc-identity": {
+          "bg-img": "/assets/img/main/design/FInc Logo.webp",
+          "img": "/assets/img/main/design/FInc Logo.webp"
+        }
+      }
+    },
+    {
+      "id": "path",
+      "display_order": 11,
+      "title": "Path Infotech",
+      "summary": "A Technology Solution Provider, offering foundational, sustenance and digital transformation services across multiple technologies to global Businesses",
+      "tags": ["Website Design","Wordpress",  "Responsive"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/path",
+      "bg-img": "/assets/img/main/development/Path IInfotech.webp",
+      "img": "/assets/img/main/development/Path IInfotech.webp",
+      "detail-page": {
+        "heading": "Path Infotech",
+        "client": "Path Infotech",
+        "industry": "Technology-driven business leaders",
+        "region": "ASEAN, Australia & USA",
+        "case-study-img": "/assets/img/path infotech hero img.jpg",
+        "platform": "Website",
+        "tags": ["Website Design","Wordpress",  "Responsive"]
+      },
+      "page-variants": {
+        "path-strategy": {
+          "title": "Path Infotech",
+          "summary": "Path is a Technology Solutions Company, offering digital transformation services across global businesses",
+          "tags": [
+            "usability Testing",
+            "Oracle Global Partner",
+            "Contact Us Form"
+          ],
+          "bg-img": "/assets/img/path infotech hero img.jpg",
+          "img": "/assets/img/path infotech hero img.jpg"
+        }
+      }
+    },
+    {
+      "id": "comprotechnology",
+      "display_order": 12,
+      "title": "Compro Technology",
+      "summary": "Compro Technologies, help educational publishers take AI from buzzwood to impact statement",
+      "tags": [
+        "Oracle Cloud Applications",
+        "Application Modernization",
+        "Website",
+        "Responsive Design"
+      ],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/compro-technology",
+      "bg-img": "/assets/img/main/development/Compro.webp",
+      "img": "/assets/img/main/development/Compro.webp",
+      "detail-page": {
+        "heading": "Compro Technologies, help educational publishers take AI from buzzwood to impact statement",
+        "client": "Compro Technology",
+        "industry": "Email Management",
+        "region": "Global",
+        "case-study-img": "/assets/img/Compro Hero img.jpg",
+        "platform": "Outlook Add-in & Web",
+        "tags": ["Wordpress", "Authering Content", "Artifical Intelligence"]
+      }
+    },
+    {
+      "id": "klastrum",
+      "display_order": 13,
+      "title": "Klastrum",
+      "summary": "A smart desktop app designed for students and teachers to explore, learn, and teach NCERT content with ease and clarity.",
+      "tags": ["MERN", "Desktop App", "Education"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/klastrum",
+      "bg-img": "/assets/img/Klastrum (1).webp",
+      "img": "/assets/img/Klastrum (1).webp",
+      "detail-page": {
+        "heading": "Digital Live Services – Designing an Immersive Learning Platform for Classrooms",
+        "client": "Klastrum",
+        "industry": "Ed Tech",
+        "case-study-img": "/assets/img/case-study/Klastrum/klastrum-banner.webp",
+        "region": "PAN India",
+        "platform": " Smart Board (Web)",
+        "tags": ["UI/UX Design", "UX Research", "SaaS Design", "Appliances"],
+        "related-cards": ["crms", "hrms"]
+      },
+      "page-variants": {
+        "klastrum-development": {
+          "bg-img": "/assets/img/main/development/Klastrum.webp",
+          "img": "/assets/img/main/development/Klastrum.webp"
+        }
+      }
+    },
+    {
+      "id": "fresh-plate",
+      "display_order": 14,
+      "title": "Fresh Plate",
+      "summary": "Mobile app design to order food at your convenience",
+      "tags": ["UX Research", " App Design", "Food Industry"],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/fresh-plate",
+      "bg-img": "/assets/img/main/Fresh plate (2).webp",
+      "img": "/assets/img/main/Fresh plate (2).webp",
+      "detail-page": {
+        "heading": "Fresh Plate – Designing a Seamless Meal Experience With Scalable Support Systems",
+        "client": "Fresh Plate",
+        "industry": "Food",
+        "case-study-img": "/assets/img/case-study/Fresh plate/banner.webp",
+        "region": "Indian Region",
+        "platform": "Mobile App",
+        "tags": ["UX Research", "UI/UX Design", " App Design", "Food Industry"],
+        "related-cards": ["crms", "hrms"]
+      }
+    },
+    {
+      "id": "almo",
+      "display_order": 15,
+      "title": "ALMO",
+      "summary": "Turn emails into actionable DevOps work items",
+      "tags": [
+        "UI/UX Design",
+        "DevOps Management",
+        "Product Redesign",
+        "Outlook Add-in"
+      ],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/almo",
+      "bg-img": "/assets/img/portfolio/almo/bg.webp",
+      "img": "/assets/img/portfolio/almo/bg.webp",
+      "detail-page": {
+        "heading": "ALMO — From Classic Workflow to Modern Outlook Experience",
+        "client": "ALMO",
+        "industry": "Enterprise Productivity",
+        "region": "Global",
+        "case-study-img": "/assets/img/portfolio/almo/frame12.png",
+        "platform": "Outlook Add-in & Web (Landing Page)",
+        "tags": [
+          "UI/UX Design",
+          "DevOps Management",
+          "Product Redesign",
+          "Outlook Add-in"
+        ]
+      }
+    },
+    {
+      "id": "network",
+      "display_order": 16,
+      "title": "Network Management System",
+      "summary": "The company gained real-time visibility into its IT infrastructure and resolved issues faster by implementing an user centered  system.",
+      "tags": [
+        "UX Research",
+        "UI/UX Design",
+        "SaaS Product",
+        "Network Management",
+        "Front End Engineering"
+      ],
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/network",
+      "bg-img": "/assets/img/portfolio/network/bg.png",
+      "img": "/assets/img/portfolio/network/bg.png",
+      "detail-page": {
+        "heading": "NMS- Streamlining Network Issue Resolution Through Smart UI",
+        "client": "FunctionApps",
+        "case-study-img": "assets/img/portfolio/network/hero.png",
+        "industry": "Telecommunication",
+        "region": "Regional (India)",
+        "platform": "Web",
+        "tags": [
+          "UX Research",
+          "UI/UX Design",
+          "SaaS Product",
+          "Network Management",
+          "Front End Engineering"
+        ],
+          "testimonials": [
+          {
+            "name": "Sarah Mitchell",
+            "position": "Product Manager, TechCorp",
+            "review": "Working with the team on Finc was an absolute pleasure. They delivered a seamless note-taking experience that perfectly integrates with Outlook, boosting our team's productivity significantly.",
+            "stars": 4
+          }
+        ]
+        
+      }
+    }
+  ]
+}

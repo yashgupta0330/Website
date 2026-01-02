@@ -1,0 +1,14 @@
+{
+    "faqs": [
+      {
+        "question": "1. What is UI Testing?",
+        "answer": "UI testing (User Interface Testing) ensures that all visible and interactive elements of an application — like buttons, forms, menus, and layouts — work correctly across devices, browsers, and screen sizes while delivering a smooth user experience."
+      },
+      {
+        "question": "2. Why is UI Testing important in 2025?",
+        "answer": "In 2025, users expect seamless digital experiences. Even a small UI glitch, like a broken button or slow-loading page, can lead to customer loss. UI testing helps businesses build trust, improve accessibility, and stay competitive."
+      }
+
+    ]
+  }
+  

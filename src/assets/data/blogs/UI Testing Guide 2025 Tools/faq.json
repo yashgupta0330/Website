@@ -1,0 +1,53 @@
+{
+    "faqs": [
+      {
+        "question": "1. What is UI Testing?",
+        "answer": "UI testing (User Interface Testing) ensures that all visible and interactive elements of an application — like buttons, forms, menus, and layouts — work correctly across devices, browsers, and screen sizes while delivering a smooth user experience."
+      },
+      {
+        "question": "2. Why is UI Testing important in 2025?",
+        "answer": "In 2025, users expect seamless digital experiences. Even a small UI glitch, like a broken button or slow-loading page, can lead to customer loss. UI testing helps businesses build trust, improve accessibility, and stay competitive."
+      },
+
+      
+       {
+      "question": "3. What’s the difference between manual and automated UI Testing?",
+      "answer": [
+      "Manual UI Testing: Done by human testers, useful for usability, design, and exploratory testing.",
+      "Automated UI Testing: Uses tools/scripts to handle repetitive tests, cross-browser checks, and regression testing faster.",
+      "Most teams use a hybrid approach."
+      ]
+      },
+
+      {
+       
+        "question": "4. What are the best UI Testing tools in 2025?",
+        "answer": " <p>Some of the top tools include:</p><ul> <li>Selenium (industry-standard, open-source)</li> <li>Cypress (fast, JavaScript-friendly)</li><li>Playwright (cross-browser, modern apps)</li> <li>Applitools & Percy (AI-powered visual testing) </li> <li>Testim (self-healing automation)</li> <li>Chromatic (UI reviews in Git workflows)</li></ul></p>"
+      },
+
+      {
+       
+        "question": "5. How does AI improve UI Testing?",
+        "answer": " <p>AI brings smarter automation by enabling:</p><ul> <li>Self-healing tests (adapt when UI changes)</li> <li> Predictive defect detection </li> <li>Computer vision for pixel-perfect validation</li> <li> Low-code/no-code test creation for non-developers </li></ul></p>"
+      },
+
+       {
+      "question": "6. What are the biggest challenges in UI Testing?",
+      "answer": [
+      "Flaky tests caused by dynamic UIs",
+      "Performance bottlenecks under real-world load",
+      "Scaling across devices and browsers",
+      "Complex UI elements like animations or charts",
+      "AI-driven and cloud-based testing solutions help overcome these challenges."
+       ]
+      },
+
+      {
+        "question": "7. What is the future of UI Testing?",
+        "answer": "The future is AI-first and cloud-native. UI testing will expand beyond screens to AR, VR, and voice interfaces, accessibility will be non-negotiable, and testing will integrate deeply into CI/CD pipelines for faster, continuous releases."
+      }
+
+     
+    ]
+  }
+  

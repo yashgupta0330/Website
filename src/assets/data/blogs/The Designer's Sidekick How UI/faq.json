@@ -1,0 +1,19 @@
+{
+  "faqs": [
+    {
+      "question": "1. What is UI automation and how does it differ from conventional UX design",
+      "answer": "UI automation applies AI and machine learning to design, test, and optimize user interfaces automatically with minimal human intervention. Unlike legacy UX design where designers create each element by hand, UI automation can create multiple design variations, perform automated testing, and tailor interfaces according to real user data. UI automation systems can continue to evolve and improve without constant human monitoring."
+    },
+
+    {
+      "question": "2. Will UI automation completely replace UX designers?",
+      "answer": "No, UI automation will not replace UX designers but will transform their work. Designers will move from tactical implementation to strategic guidance with UI automation, focusing on establishing design principles and creating ethical standards. UI automation will perform monotonous tasks, but human designers remain essential for creative problem-solving, empathy, and strategic thinking."
+    },
+
+    {
+      "question": "3. What skills should UX designers develop to work effectively with UI automation tools?",
+      "answer": "Designers must create a hybrid skillset combining design expertise with technical knowledge of UI automation. Essential abilities include understanding UI automation concepts, data analysis capabilities, systems thinking, and knowledge of UI automation tool parameters. Skills in interpreting UI automation findings and mapping user needs into UI automation system requirements become vital for success."
+    }
+
+  ]
+}

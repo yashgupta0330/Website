@@ -1,0 +1,30 @@
+{
+    "faqs": [
+      {
+        "question": "Why Does 2025 UI/UX Design Stand Out from Conventional Processes?",
+        "answer": "<p> The basic paradigm shift of 2025 UX design is integrating emotional intelligence. In contrast to designing just for accomplishing tasks, contemporary teams design for emotional engagement and user happiness.</p> <p class='mb-1'> This new design functions on three combined dimensions:</p><ul> <li>AI-Driven Foundation: Artificial intelligence performs analysis of research and first-round design generation. </li><li>  Emotion-Sensitive Testing: Sophisticated tools show us not only what the user does, but also how they feel. </li><li>SEO-Incorporated Design: Search optimization is incorporated into the design process, rather than being an afterthought. </li></ul> <p> The result is designs that put people in a good mood without compromising on discoverability and load times.</p>"
+      },
+      {
+        "question": "How Exactly Does AI Assist UX Designers in Their Day-to-Day Work?",
+        "answer": 
+        "<p class='mb-1'> AI is a strong multiplier of human creativity and not a substitute for designer taste. Here's how top design teams use AI:</p> <ul> <li> <span class='fw-semibold'>Research and Analysis: </span> While it would take weeks of user interview analysis by humans, AI builds a repository of hundreds of hours of user input in minutes, extracting patterns and insights that might not be noticed by humans.</li><li><span class='fw-semibold'> Design Generation: </span> AI tools such as Figma AI create several layout options under given constraints, serving as inspirational starting points for further creative work. </li><li><span class='fw-semibold'>User Testing Enhancement: </span> Emotion AI interprets facial cues and stress signals during user testing, offering objective measures of user emotional states over the course of interactions. </li><li> <span class='fw-semibold'> Performance Monitoring: </span> AI continuously watches live products and notifies teams of user experience problems before they have a material effect on conversion rates or user satisfaction. </li></ul>"
+      },
+      {
+        "question": "Which Tools to Learn as a UX Designer in 2025? ",
+        "answer": "<p> Master these critical categories:</p><p class='mb-1 fw-semibold'>Core Design Tools:</p><ul><li> <span class='fw-semibold'> Figma AI: </span> AI-enhanced design creation and development handoff.</li><li> <span class='fw-semibold'> Uizard: </span> AI-aided rapid prototyping. </li><li><span class='fw-semibold'>Anima: </span> Smooth design-to-code translation.</li></ul><p class='mb-1 fw-semibold'>Research and Testing:</p><ul><li><span class='fw-semibold'> UserTesting Emotion AI: </span> Facial expression analysis during user testing.</li><li> <span class='fw-semibold'> Affectiva: </span> In-depth stress and emotion tracking. </li><li><span class='fw-semibold'> Hotjar AI: </span> Behavior pattern recognition and insight generation.</li></ul><p class='mb-1 fw-semibold'>SEO Integration:</p><ul><li><span class='fw-semibold'>SurferSEO: </span> Content optimization with UX in mind.</li><li> <span class='fw-semibold'>Semrush AI: </span> Performance tracking with user behavior analysis. </li></ul>"
+      },
+      {
+        "question": "What is the 6-3-1 rule in UI design?",
+        "answer": "The 6-3-1 rule is a colour palette guideline for creating visually balanced and appealing interfaces. Use 60% of a dominant neutral colour (backgrounds), 30% of a secondary colour (sections, cards), and 10% of an accent colour (buttons, links, highlights). This creates a visual hierarchy and prevents colour overload while maintaining brand consistency."
+      },
+      {
+        "question": "Can I learn UX in 3 months?",
+        "answer": "You can build a solid foundation in 3 months by learning core concepts, design thinking, and basic tools. However, true proficiency requires 6-12 months of practice and real-world application. Focus on fundamentals first, then practice regularly with feedback from experienced designers."
+      },
+      {
+        "question": "Which UX book should I read first as a complete beginner?",
+        "answer": "Start with The Design of Everyday Things by Donald Norman. It explains fundamental design principles using everyday objects, making complex concepts easy to grasp. Follow with Don't Make Me Think for practical web usability insights."
+      }
+    ]
+  }
+  

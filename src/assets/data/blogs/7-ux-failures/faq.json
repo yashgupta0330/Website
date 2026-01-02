@@ -1,0 +1,35 @@
+{
+  "faqs": [
+    {
+      "question": "What constitutes a UX design failure? ",
+      "answer": 
+        "A UX design failure occurs when digital products don't meet user expectations for ease of use, clarity, or functionality. These failures manifest as user confusion, task abandonment, increased support requests, and ultimately, lost conversions and revenue."
+    },
+
+    {
+      "question": "How do UX failures impact business performance? ",
+      "answer": 
+        "UX failures directly affect key business metrics, including increased bounce rates, reduced conversion rates, higher customer acquisition costs, and negative brand perception. "
+    },
+
+    {
+      "question": "What's the difference between a UX failure and a technical bug?",
+      "answer": 
+        "UX failures are design decisions that make products difficult or frustrating to use, even when everything functions technically. Technical bugs are system malfunctions that prevent features from working as intended. A working but confusing checkout process is a UX failure; a broken payment processor is a technical bug. "
+    },
+
+    {
+      "question": "How can I identify UX failures in my product? ",
+      "answer": 
+        "Monitor user behavior through analytics, conduct usability testing sessions, collect user feedback through surveys, analyze support tickets for common complaints, and perform regular design audits using established UX principles and best practices."
+    },
+
+     {
+      "question": "What are the most common login/signup form UX failures? ",
+      "answer":
+        "Common failures include missing show password options, overly complex password requirements, lack of real-time validation feedback, unclear error messages, social login integration issues, and forms that don't save progress when errors occur."
+    }
+
+  ]
+}
+

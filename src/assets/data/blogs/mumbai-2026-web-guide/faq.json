@@ -1,0 +1,17 @@
+{
+  "faqs": [
+    {
+      "question": "How does Anarish's 3-day trial work?",
+      "answer": "Experience our development process risk-free with a complimentary 3-day trial:Day 1: Share your project requirements and vision in detail with our team.Day 2: Receive initial architecture plans, recommended technology stack, and preliminary timeline estimates.Day 3: The 3-day trial is currently offered at no cost, allowing teams to experience our process before making a decision."
+    },
+    {
+      "question": "How can Anarish offer high-quality software at a more affordable rate compared to traditional agencies in Mumbai?",
+      "answer": "Traditional agencies in prime locations like Mumbai come with high overheads, such as expensive offices and large sales teams, which makes their services more costly. In contrast, Anarish achieves 30-40% cost savings by cutting out these expenses and creating specialized teams that focus on productivity. Importantly, this doesn't mean sacrificing developer expertise, code quality, security, testing standards, or post-launch support. The result is high-quality, secure software delivered at a more affordable price, allowing businesses to maximize their investment without compromising on essential features."
+    },
+    {
+      "question": " Do you work with small businesses or just big enterprises?",
+      "answer": "Anarish specializes in enterprise-grade development, making it accessible to growing businesses through flexible engagement models starting from ₹4 lakhs onward. The 3-day trial makes sure that small businesses can confidently validate their selection without expensive selection mistakes."
+    }
+    
+  ]
+}

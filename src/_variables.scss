@@ -1,0 +1,40 @@
+$primary: black;
+$font-family-base: "Manrope";
+$btn-padding-x: 1rem;   // Left & Right padding
+$btn-padding-y: 0.5rem;  // Optional: top & bottom
+$grid-breakpoints: (
+  xs: 0,
+  sm: 425px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px
+);
+
+:root {
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 425px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1440px
+  /* Palette tokens */
+  --color-muted: #444;
+  --color-foreground: #111827;
+  --color-subtle: #777;
+   
+}
+.btn-lg, .btn-group-lg > .btn {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-font-size: 1.25rem;
+
+    --bs-btn-border-radius: var(--bs-border-radius-lg);
+}

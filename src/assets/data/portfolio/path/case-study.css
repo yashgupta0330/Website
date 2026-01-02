@@ -1,0 +1,101 @@
+@media (min-width: 992px) {
+    .sass-design {
+        padding: 80px 64px;
+    }
+}
+
+@media (min-width: 992px) {
+    .second {
+        padding: 80px 64px;
+    }
+}
+
+@media (min-width: 992px) {
+    .user-persona {
+        padding: 80px 64px;
+    }
+}
+
+.sass-design {
+    background-color: #fafafa;
+}
+
+.user-persona {
+    background-color: #fafafa;
+}
+
+.section-header {
+    max-width: 80%;
+}
+
+.service-inner-para {
+    color: #424242;
+    margin-bottom: 0;
+}
+
+.service-inner-para span {
+    color: #121212;
+}
+
+.one {
+    padding-right: 0;
+}
+
+@media (min-width: 992px) {
+    .one {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-right: 80px;
+    }
+}
+
+.two {
+    padding-left: 0;
+}
+
+@media (min-width: 992px) {
+    .two {
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+    }
+}
+
+.col-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media (min-width: 992px) {
+    .col-wrapper {
+        gap: 60px;
+    }
+}
+
+.new {
+    font-size: 18px;
+}
+
+.client-info {
+    border: 1px solid #121212;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+/* .Row{
+    padding-bottom: 80px;
+} */
+
+.pb-80 {
+    padding-bottom: 80px !important;
+}
+
+
+
+/* <> */
+
+

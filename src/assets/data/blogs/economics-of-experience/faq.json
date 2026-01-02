@@ -1,0 +1,24 @@
+{
+  "faqs": [
+    {
+      "question": "What is the typical financial return on investing in superior UX design?",
+      "answer": "Industry analysis shows $1 invested yields $10 on average; improving critical flows can raise conversion rates up to 40%."
+    },
+    {
+      "question": "What are the six foundational attributes of high-quality UX?",
+      "answer": "Usability, Functionality, Attractiveness, Searchability, Accessibility, and Credibility."
+    },
+    {
+      "question": "Why does the Nielsen Norman Group recommend testing with only five users?",
+      "answer": "The 5-User Rule finds 85% of critical issues efficiently, enabling rapid design decisions early."
+    },
+    {
+      "question": "What is the biggest driver of e-commerce cart abandonment?",
+      "answer": "Transparency Gap (48%), forced account creation (24%), complex checkout (17%)."
+    },
+    {
+      "question": "How do psychological laws like Fitts's Law influence mobile design?",
+      "answer": "Targets must be large (48x48 dp) and in thumb zones for speed and accuracy."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+<app-internal-loader></app-internal-loader>
+<main class="blog-details-page">
+  <!-- Mobile Sidebar Arrow Button: Move below header, above content -->
+  <!-- Header Section with Title and Image -->
+  <section class="blog-header-section">
+    <div class="container">
+      <div class="row align-items-center mt-2 mt-lg-5">
+        <div class="col-12 col-lg-6">
+          <a (click)="goToAllBlogs()" class="back-link" style="cursor: pointer;">← All Blogs</a>
+          
+          <h1 class="blog-main-title">{{ blog?.title || 'Blog Title' }}</h1>
+          
+          <div class="blog-meta-header">
+            <span class="meta-date">{{ formattedDate }}</span>
+            <span class="meta-separator">•</span>
+            <span class="meta-time">{{ blog?.timeToRead || '0' }} min read</span>
+          </div>
+        </div>
+        
+        <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+          <div class="blog-hero-image">
+            <img [src]="blog?.img || '/assets/img/blogs/istblog.png'" 
+                 alt="{{ blog?.title || 'Blog' }}" 
+                 class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Main Content Section with Sidebar -->
+  <div class="blog-content-wrapper">
+    <div class="container">
+      <div class="row">
+        <!-- FAB for Mobile Sidebar, above Table of Content (hide when sidebar open) -->
+        <div class="fab-sidebar-top d-block d-xl-none" *ngIf="!showMobileSidebar">
+            <button class="btn btn-outline-secondary px-4 py-2 fw-semibold" (click)="showMobileSidebar = true" aria-label="Open Table of Content">
+              Table of Content
+            </button>
+        </div>
+           <!-- Mobile Sidebar Drawer -->
+        <div class="mobile-sidebar-drawer d-xl-none" [class.open]="showMobileSidebar" *ngIf="showMobileSidebar">
+          <div class="drawer-overlay" (click)="showMobileSidebar = false"></div>
+          <aside class="drawer-content">
+            <img src="/assets/img/anarish-logo.svg" alt="Anarish Logo" class="img-fluid" />
+            <button class="close-btn" (click)="showMobileSidebar = false" aria-label="Close Sidebar">&times;</button>
+            <nav class="table-of-contents">
+              <ul class="toc-list">
+                <li *ngFor="let item of tableOfContents" [class.active]="isActiveSection(item.id)">
+                  <a (click)="scrollToSection(item.id); showMobileSidebar = false" [class.active]="isActiveSection(item.id)">
+                    {{ item.title }}
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+        </div>
+        <!-- Left Sidebar - Table of Contents (Desktop) -->
+        <aside class="col-xl-3 d-none d-xl-block blog-toc">
+          <div class="sidebar-sticky">
+            <nav class="table-of-contents">
+              <ul class="toc-list">
+                <li *ngFor="let item of tableOfContents" 
+                    [class.active]="isActiveSection(item.id)">
+                  <a (click)="scrollToSection(item.id)" 
+                     [class.active]="isActiveSection(item.id)">
+                    {{ item.title }}
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <div [ngClass]="{'col-xl-6': layoutType === 'three-col', 'col-xl-9': layoutType === 'two-col'}" class="blog-content">
+          <div  [class.px-xl-5]="layoutType === 'three-col'">
+            <div [innerHTML]="blogContent"></div>
+          </div>
+        </div>
+
+        <!-- Right Sidebar - About & Share -->
+        <aside *ngIf="layoutType === 'three-col'" class="col-xl-3 about-anarish mt-5 mt-xl-0">
+          <div class="row">
+            <div class="col-12 col-md-5 col-xl-12 order-2 order-md-0">
+              <img src="/assets/img/about-us/04.webp" alt="About Anarish" class="img-fluid about-image" />
+            </div>
+            <div class="col-12 col-md-6 col-xl-12 order-1  order-md-0">
+              <div class="about-card">
+                <p class="para">About Anarish</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</p>
+                <a href="/about-us" class="learn-more-link  mt-0 mb-2 mt-md-0">Learn more</a>
+              </div>
+              <hr class="about-share-divider d-none d-md-block" />
+              
+            </div>
+          </div>
+          <div class="share-section">
+            <p class="heading mb-2 mt-3 mt-md-0 fw-semibold ">Share this article</p>
+            <div class="share-buttons">
+              <!-- Twitter X -->
+              <button (click)="shareOnTwitter()" 
+                      class="share-link-btn"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top" 
+                      title="Twitter">
+                <img src="/assets/img/blogs/Social-media-icons/twitter.png" alt="Twitter" width="38" height="38" />
+              </button>
+              
+              <!-- Facebook -->
+              <button (click)="shareOnFacebook()" 
+                      class="share-link-btn"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top" 
+                      title="Facebook">
+                <img src="/assets/img/blogs/Social-media-icons/facebook.png" alt="Facebook" width="38" height="38" />
+              </button>
+                  
+              <!-- LinkedIn -->
+              <button (click)="shareOnLinkedIn()" 
+                      class="share-link-btn"
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top" 
+                      title="LinkedIn">
+                <img src="/assets/img/blogs/Social-media-icons/linkedin.png" alt="LinkedIn" width="38" height="38" />
+              </button>
+              
+              <!-- Copy Link -->
+              <button (click)="copyLink()" 
+                      class="copy-link-btn" 
+                      data-bs-toggle="tooltip" 
+                      data-bs-placement="top" 
+                      title="Copy Link">
+                <img src="/assets/img/blogs/Social-media-icons/copy.png" alt="Copy Link" width="38" height="38" />
+              </button>
+              
+              <div *ngIf="isLinkCopied" class="copy-message">Link copied!</div>
+            </div>
+          </div>
+        </aside>
+        </div>
+      </div>
+  </div>
+
+  <!-- FAQ Section -->
+ <section class="faq-section mt-5 mt-xl-4">
+  <div class="container">
+    <div class="row">
+      <!-- LEFT SIDE -->
+      <div class="col-12 col-xl-5">
+        <div class="wrap">
+          <!-- <div class="our-work">
+            <p class="section-heading-tag">Have Queries?</p>
+          </div> -->
+          <h2 class="section-header">Frequently Asked Questions</h2>
+          <img
+            src="/assets/img/main/blog_faq.png"
+            alt="image"
+            class="img-fluid mt-3 d-none d-xl-block"
+          />
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="col-12 col-xl-7 align-items-center">
+        <div class="accordion" id="blogFaqAccordion">
+
+          <div class="accordion-item" *ngFor="let item of faqs; let i = index">
+            <div class="accordian-inner" [ngClass]="{'pt-0': i==0}">
+              <h2 class="accordion-header" [id]="'blogHeading'+i">
+                <button
+                  class="accordion-button"
+                  [ngClass]="{ 'collapsed': i != 0 }"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  [attr.data-bs-target]="'#blogCollapse'+i"
+                  [attr.aria-expanded]="i == 0"
+                  [attr.aria-controls]="'blogCollapse'+i">
+                  {{ item.question }}
+                </button>
+              </h2>
+
+              <div
+                [id]="'blogCollapse'+i"
+                class="accordion-collapse collapse"
+                [ngClass]="{ 'show': i == 0 }"
+                [attr.aria-labelledby]="'blogHeading'+i"
+                data-bs-parent="#blogFaqAccordion">
+
+                <div class="accordion-body">
+                  <div *ngIf="isArray(item.answer); else stringAnswer">
+                    <ul>
+                      <li *ngFor="let ans of getAnswers(item.answer)">
+                        <div [innerHTML]="formatAnswer(ans)"></div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <ng-template #stringAnswer>
+                    <div [innerHTML]="safeFormatAnswer(item.answer)"></div>
+                  </ng-template>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section class="py-0 mt-4">
+    <div class="related-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <div class="related-blogs">
+              <h2>You Might Also Like</h2>
+
+              <!-- Row wrapper added here -->
+              <div class="related-blog-card row ">
+                <div class="col-12 col-md-6 col-xl-4 mb-4" *ngFor="let blog of suggestedBlogs">
+                  <div class="blog-card d-flex flex-column " (click)="goToSuggestedBlog(blog)">
+                    <!-- <div class="card-clickable" (click)="goToSuggestedBlog(blog)"> -->
+                    <div class="card-img">
+                      <img [src]="blog.img " class="img-fluid flex-shrink-0" alt="{{ blog.title }}">
+                    </div>
+                    <div class="suggest-card-body">
+                      <div class="date-time">
+                        <div class="day">{{ getRelativeTime(blog.date) }}</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
+                          <circle cx="2.5" cy="2.5" r="2.5" fill="#979797" />
+                        </svg>
+                        <div class="time">{{ blog.timeToRead || '0 min read' }} min read</div>
+                      </div>
+                      <div class="description-blog">
+                        <h5 class="blog-card-title">{{ blog.title }}</h5>
+                        <p class="card-text">{{ blog.summary }}</p>
+                      </div>
+                      <button class="btn-sm" (click)="goToSuggestedBlog(blog)">Read More</button>
+                    </div>
+                    <!-- </div> -->
+                  </div>
+                </div>
+              </div>
+              <!-- Row ends -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</main>

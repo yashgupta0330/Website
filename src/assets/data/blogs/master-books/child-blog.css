@@ -1,0 +1,79 @@
+ .book-wrapper {
+   padding-bottom: 26px;
+ }
+
+ .book-wrapper .link {
+    color: #3165de;
+    text-decoration: none;
+    border-bottom: 1px solid #3165de;
+ }
+
+ .book-wrapper .book-image {
+   border-radius: 5px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
+
+ .book-wrapper h2,
+ h4 {
+   font-weight: 600;
+ }
+
+ .book-wrapper ul li {
+   margin-bottom: 5px;
+ }
+
+ .book-wrapper .Highlights {
+   margin-bottom: 16px;
+ }
+
+ .book-wrapper p {
+   margin-bottom: 1rem;
+ }
+
+
+
+/** Common styles to be used in all blogs **/
+section {
+   padding: 0 0 2.25rem;
+}
+
+.blog-content section:last-of-type {
+   padding:0;
+}
+
+h2,
+h3,
+h4 {
+   margin-bottom: 16px;
+   font-weight: 600;
+   color: #121212;
+}
+
+@media (min-width:1200px) {
+   .blog-content-wrapper h2 {
+      font-size: 1.5rem;
+   }
+}
+
+@media (min-width:1200px) {
+   .blog-content-wrapper h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+   }
+}
+
+ul,
+ol {
+   padding-left: 24px;
+   li {
+      margin-bottom: 8px;
+   }
+}
+
+
+
+section:last-child {
+  margin-bottom: 0 !important; /* only affects last section */
+}
+/** Common styles to be used in all blogs Ends here**/
+  

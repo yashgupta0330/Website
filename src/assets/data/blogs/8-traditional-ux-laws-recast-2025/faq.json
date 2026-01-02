@@ -1,0 +1,29 @@
+{
+  "faqs": [
+    {
+      "question": "Are these rules enforceable in no-code platforms?",
+      "answer": 
+        "Yes—these principles are natively enabled by platforms like Framer, Webflow, and Figma, making them available to designers of any technical background."
+    },
+    {
+      "question": "Where do I begin with the laws?",
+      "answer":
+        "Start with Hick's Law—it provides fast turnaround in product flows and onboarding, with immediate, tangible gains."
+    },
+    {
+      "question": "Are they still applicable in spatial or AR design?",
+      "answer": 
+        "Definitely. Their use does change, but the psychology behind them does not differ depending on interface paradigms."
+    },
+    {
+      "question": "What is the largest error to commit?",
+      "answer":
+        "Violating a law prior to testing it. Learn the principle, then test with variations thoughtfully."
+    },
+    {
+      "question": " Will new UX laws keep appearing?",
+      "answer": 
+        "<p> Yes—technology brings in evolving interactions. Voice, haptics, and AI are creating new patterns that will become established principles. </p> <p> Want to build smarter, faster, more intuitive digital products? Start with the laws that make good design human. Master these fundamentals, then innovate on top of them to create experiences that truly resonate with users in 2025 and beyond.</p>"
+    }
+  ]
+}

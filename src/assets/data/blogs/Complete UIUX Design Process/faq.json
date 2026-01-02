@@ -1,0 +1,19 @@
+{
+    "faqs": [
+      {
+        "question": "How many months does it take to be a professional UI/UX designer? ",
+        "answer": "It takes 6-12 months to learn the basic skills through concentrated study, but it requires 3-5 years of experience working on actual projects with various groups of users in order to reach expert-level intuition and strategic thinking."
+      },
+      {
+        "question": "What is the chief distinction between UI and UX in the design process? ",
+        "answer": " UX design encompasses the whole strategic process: user research, journey mapping, information architecture, and resolving the user's essential problem. UI design forms a subset of the process, concentrating on the visual and interactive aspects: the look and feel of the interface. Briefly, UX makes it functional, and UI makes it beautiful and interactive."
+      },
+      {
+        "question": "What are the UI/UX designer's fundamental tools? ",
+        "answer": "Designers employ many tools. For prototyping and design, Figma and Sketch are standard industry tools. For collaboration and research, Miro and UserInterviews.com are favored. For usability tests, Maze and Hotjar are standard tools. But process and mindset are always more valuable than the tool."
+      }
+      
+
+    ]
+  }
+  

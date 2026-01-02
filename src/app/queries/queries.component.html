@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>User Query</h1>
+  
+    <!-- Search input -->
+    <input type="text" [(ngModel)]="searchQuery" placeholder="Search..." class="search-input">
+  
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th> <!-- Move the Date column to the first position -->
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone Number</th>
+          <th>Interests</th>
+          <th>Project Requirements</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users | filter:searchQuery">
+          <td>{{ user.date }}</td> <!-- Display date in the first column -->
+          <td>{{ user.name }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.phoneNumber }}</td>
+          <td>{{ user.intrests.join(', ') }}</td>
+          <td>{{ user.projectRequirements }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  

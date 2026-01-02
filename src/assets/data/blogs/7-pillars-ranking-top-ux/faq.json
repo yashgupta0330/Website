@@ -1,0 +1,35 @@
+{
+  "faqs": [
+    {
+      "question": "How do ethical design commitments translate into measurable ROI for a business? ",
+      "answer":  "A: Ethical design reduces risk by anticipating regulatory compliance (e.g., EU AI Act, accessibility laws) and builds brand trust. This leads to higher user retention and avoidance of costly product redesigns or legal issues, providing clear long-term savings."
+      
+    },
+
+    {
+      "question": " Should a mid-market company prioritize an agency with AI fluency or one with vertical specialization? ",
+      "answer": "A: Vertical specialization should be the priority, especially for complex products (B2B/SaaS). This ensures the agency understands niche user pain points and compliance needs. AI fluency is an accelerator, but domain knowledge is foundational for success."
+      
+    },
+    {
+      "question":  "What is the most reliable 'red flag' when evaluating an agency's process transparency? ",
+      "answer": "The most reliable red flag is the 'One-and-Done Approach' or resistance to discussing post-launch A/B testing and quantitative metric tracking. A top agency's commitment must extend beyond the initial launch to continuous, data-driven optimization. "
+    },
+
+     {
+      "question": "How does a strong design system impact the long-term cost of a digital product? ",
+      "answer": "A robust design system creates a single source of truth for design and code. This consistency significantly accelerates development, reduces technical debt, and lowers maintenance costs across multiple platforms, maximizing efficiency for future product iterations. "
+    },
+
+     {
+      "question": "What evidence should I look for to confirm an agency's 'Thought Leadership'  is genuine, not just marketing? ",
+      "answer": "A: Look for evidence of unique, published perspectives—articles, conference talks, or proprietary frameworks—that challenge current industry norms and align with your long-term strategic goals. Genuine thought leaders should proactively bring new, validated ideas to the table."
+    }
+
+   
+  
+ 
+  
+
+  ]
+}

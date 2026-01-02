@@ -1,0 +1,18 @@
+{
+    "faqs": [
+      {
+        "question": "What is UX writing?",
+        "answer": "UX writing is the art of creating the words users encounter when using a digital product-from button labels ('Add to cart') and error messages, to instructions and menu item labels. The whole point is to guide users and allow them to complete tasks in as straightforward and intuitive a manner as possible."
+      },
+      {
+        "question": "How is UX writing different from copywriting?",
+        "answer": "Copywriting sells; it's marketing copy intended to convince somebody to purchase a product or brand. UX writing guides; it's for assisting existing users who are already in the product with clear, effective text that creates a seamless and frustration-free experience."
+      },
+      {
+        "question": "What are the key skills of a UX writer?",
+        "answer": "A UX writer combines empathy-understanding how users feel and what frustrates them-with clarity and conciseness in explaining complicated ideas, collaboration with designers, researchers, and product managers, and knowledge of design thinking that involves UX fundamentals, research, and tools like Figma."
+      }
+     
+    ]
+  }
+  

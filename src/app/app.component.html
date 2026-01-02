@@ -1,0 +1,153 @@
+<!-- External Loader for initial app load -->
+<app-external-loader></app-external-loader>
+
+<!-- Internal Loader for HTTP requests -->
+<app-internal-loader></app-internal-loader>
+
+<div class="app-wrapper" id="scroll-container">
+
+<router-outlet>
+
+    <!-- Modal -->
+    <div class="modal fade d-none" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- <h1>
+                        Unlock a 15-Day Free Trial of Our Cutting-Edge UI/UX Services!
+                    </h1> -->
+                    <h1 class="fs-4" id="exampleModalLabel">15-Day Free Trial of Our UI/UX Services!</h1>
+                    <p class="">
+                        Are you ready to revolutionize the way your users interact with technology? At AIPL (Anarish
+                        Innovations Private Limited), we specialize in creating exceptional user experiences through
+                        innovative design. For a limited time, we are offering a 15-day free trial of our top-tier UI/UX
+                        services. This is your chance to experience firsthand how our solutions can captivate your users
+                        and drive results in the digital landscape.
+                    </p>
+
+                    <h2 class="">
+                        Why Choose Us?
+                    </h2>
+                    <ul class="">
+                        <li>
+
+                            Human-Centered Approach: We prioritize the needs, preferences, and pain points of your
+                            target
+                            audience to create designs that resonate.
+                        </li>
+                        <li>
+
+                            Creativity & Innovation: Our team of experts brings fresh ideas and cutting-edge solutions
+                            to
+                            every project.
+                        </li>
+                        <li>
+
+                            Quality & Excellence: We are committed to delivering top-notch services that exceed your
+                            expectations.
+                        </li>
+                        <li>
+
+                            Collaboration & Partnership: We work closely with you to ensure that our solutions align
+                            with
+                            your business goals.
+                        </li>
+                    </ul>
+                    <h2 class="">
+                        What’s Included in the Free Trial?
+                    </h2>
+                    <ul class="">
+                        <li>
+                            Comprehensive user research and testing
+                        </li>
+                        <li>
+                            Wireframe and prototype development
+                        </li>
+                        <li>
+                            Design of graphical elements, typography, color schemes, and iconography
+                        </li>
+                        <li>
+                            Usability testing and feedback sessions
+                        </li>
+                    </ul>
+                    <h2 class="">
+                        Terms and Conditions:
+                    </h2>
+                    <ul class="">
+
+                        <li>
+                            The 15-day free trial is available to new clients only.
+                        </li>
+                        <li>
+                            The trial period begins on the date of sign-up and lasts for 15 consecutive days.
+                        </li>
+                        <li>
+                            During the trial period, clients will have access to a limited set of features and services.
+                            At the end of the trial period, clients may choose to continue with our services by
+                            selecting
+                            one of our paid plans.
+                        </li>
+                        <li>
+                            The free trial is non-transferable and cannot be combined with any other offers or
+                            promotions.
+                        </li>
+                        <li>
+                            AIPL reserves the right to modify or cancel the free trial offer at any time without prior
+                            notice.
+                        </li>
+
+                    </ul>
+
+                    <p class="">
+                        Sign up today and discover how our UI/UX services can transform your digital presence. Don’t
+                        miss out on this exclusive opportunity to elevate your user experience!
+                        <span class="d-inline-block">
+                            By signing up for the free trial, clients agree to comply with all terms and conditions set
+                            forth by AIPL.
+                        </span>
+                    </p>
+                    <!-- <h2 class="text-center">
+                        <button class="btn btn-primary" routerLink="contact-us" data-bs-dismiss="modal">
+                            Ready to Get Started?
+                        </button>
+                    </h2> -->
+                </div>
+                <div class="modal-footer">
+                    <h2 class="text-center">
+                        <button class="btn btn-primary" (click)="dismissToast()" data-bs-dismiss="modal" routerLink="contact-us" >
+                            Send your query now!
+                        </button>
+                    </h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- <div class="toast-container position-fixed bottom-0 end-0">
+        <div id="liveToast" class="toast " role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header  border-0 position-relative d-flex justify-content-center">
+                <img src="../assets/img/main/15 Days Free trial.svg" alt="offer" class="img-fluid" width="100%">
+                
+                <button type="button" class="btn-close ms-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body bg-white ">
+                <button class="btn" data-bs-dismiss="toast"><a routerLink="contact-us" class="">Send your Query</a>
+                </button>
+                <p class="" data-bs-toggle="modal" data-bs-target="#exampleModal">Terms & Conditions </p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <button type="button" [class.d-none]="querySubmited" class="btn  position-fixed m-3" id="liveToastBtn">
+        <img src="../assets/img/main/15 days free trail.png" class="img-fluid" alt="Free-Trial">
+    </button> -->
+
+</router-outlet>
+</div>

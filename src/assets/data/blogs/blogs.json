@@ -1,0 +1,337 @@
+{
+  "blogs": [
+    {
+      "metaTitle": "8 Essential Foundations for Beginners",
+      "title": "8 Essential Foundations for Beginners",
+      "summary": "UI (User Interface) and UX (User Experience) design have become a necessary skill to craft websites, apps, and software.",
+      "timeToRead": "6",
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/essentials-foundations-for-beginners",
+      "img": "assets/img/blogs/essentials-foundations-for-beginners/Basics of UIUX Design 8.webp",
+      "folder_id": "essentials-foundations-for-beginners",
+      "isFirstCard": true
+    },
+    {
+      "metaTitle": "6 Must-Reads to Master UX in 2025",
+      "title": "6 Must-Reads to Master UX in 2025",
+      "summary": "Discover 6 must-read books that will sharpen your UI/UX design skills and inspire smarter, user-centered creativity.",
+      "timeToRead": "6",
+      "date": "2025-06-18",
+      "category": "Design",
+      "url": "/must-read-ui-ux-books",
+      "img": "assets/img/blogs/books-master/reading-books.webp",
+      "folder_id": "master-books"
+    },
+
+    {
+      "metaTitle": "9 Reasons Why You Should Hire a UI/UX Design Agency",
+      "title": "9 Reasons Why You Should Hire a UI/UX Design Agency",
+      "summary": "Get details about how agencies suppport in creating UI/UX designs strategies for you.",
+      "timeToRead": "8",
+      "date": "2025-04-17",
+      "category": "Technology",
+      "url": "/design-thinking-in-practise",
+      "img": "assets/img/blogs/9-reasons/UX.webp",
+      "folder_id": "9-reasons"
+    },
+    {
+      "metaTitle": "Significance of UI & UX",
+      "title": "Significance of UI & UX",
+      "summary": "How design is evolving with modern technology.",
+      "timeToRead": "4 ",
+      "date": "2025-02-09",
+      "category": "Design",
+      "url": "/ui-ux-trends",
+      "img": "assets/img/blogs/significance-ui-ux/reason.webp",
+      "folder_id": "significance-ui-ux",
+      "hasCustomAssets":true
+    },
+    {
+      "metaTitle": "UX Laws Reimagined for 2025 | The Ultimate Guide to Human-Centered Design",
+      "title": "8 Traditional UX Laws Recast for 2025: The Ultimate Guide to Human-Centered Design",
+      "summary": "Discover 8 timeless UX laws reinvented for 2025. Learn how Hick's, Fitts's, Jakob's, and more shape AI, AR, and voice interfaces to create seamless digital experiences.",
+      "timeToRead": "4",
+      "date": "2025-08-24",
+      "category": "Technology",
+      "url": "/8-traditional-ux-laws-recast-2025",
+      "img": "assets/img/blogs/8-traditional-ux-laws-recast-2025/8_Traditional_UX_Laws.webp",
+      "folder_id": "8-traditional-ux-laws-recast-2025"
+    },
+    {
+      "metaTitle": "Future-Proof Your Career: UI/UX Designer Skills You Need in 2025",
+      "title": "Future-Proof Your Career: UI/UX Designer Skills You Need in 2025",
+      "summary": "Discover the essential UI/UX designer skills for 2025 — from AI literacy and voice UI to visual design, prototyping, and user research. Stay ahead in digital design.",
+      "timeToRead": "4",
+      "date": "2025-08-17",
+      "category": "Technology",
+      "url": "/ui-ux-designer-skills",
+      "img": "assets/img/blogs/ui-ux-designer-skills/Future-Proof.webp",
+      "folder_id": "ui-ux-designer-skills"
+    },
+    {
+      "metaTitle": "Top UX Design Agencies in Mumbai: Complete Guide to Multinational Companies in 2025",
+      "title": "Top UX Design Agencies in Mumbai: Complete Guide to Multinational Companies in 2025",
+      "summary": "Find the best UX design agencies in Mumbai with this guide. Learn the pros and cons of top firms and discover why specialized, location-independent alternatives offer superior value and results.",
+      "timeToRead": "4",
+      "date": "2025-08-17",
+      "category": "Technology",
+      "url": "/top-design-agency-mumbai",
+      "img": "assets/img/blogs/top-design-agency-mumbai/Top_UX_Design_Agencies.webp",
+      "folder_id": "top-design-agency-mumbai"
+    },
+    {
+      "metaTitle": "The 2025 UI/UX Technology Revolution: From Screens to Smart Ecosystems",
+      "title": "The 2025 UI/UX Technology Revolution: From Screens to Smart Ecosystems",
+      "summary": "Discover 5 revolutionary UI/UX technologies for 2025. Discover how AI copilots, spatial UI, and emotion-sensing interfaces are revolutionizing design, transitioning from static screens to intelligent, adaptive digital ecosystems.",
+      "timeToRead": "4",
+      "date": "2025-08-17",
+      "category": "Technology",
+      "url": "/ui-ux-tech-revolution",
+      "img": "assets/img/blogs/ui-ux-tech-revolution/The_2025_UIUX_Technology.webp",
+      "folder_id": "ui-ux-tech-revolution"
+    },
+    {
+      "metaTitle": "The 2025 UI/UX Process: AI-Powered & Emotionally Intelligent",
+      "title": "The 2025 UI/UX Process: AI-Powered, Cross-Platform, and Emotionally Intelligent Workflows",
+      "summary": "Discover the groundbreaking 5-step UI/UX design process for 2025. Learn how AI-driven research, generative sprints, and emotion-based validation create experiences that emotionally engage users and rank higher in search engines.",
+      "timeToRead": "4",
+      "date": "2025-08-17",
+      "category": "Technology",
+      "url": "/2025-ui-ux-process",
+      "img": "assets/img/blogs/2025-ui-ux-process/Hero_img.webp",
+      "folder_id": "2025-ui-ux-process"
+    },
+    {
+      "metaTitle": "UX Laws and Principles: 4 Rules for Digital Design in 2025",
+      "title": "UX Laws and Principles: 4 Fundamental Rules That Govern Contemporary Digital Design in 2025  ",
+      "summary": "Technology evolves, but human psychology doesn't. Discover the 4 fundamental UX laws and principles that are essential for creating intuitive and successful digital products in 2025.",
+      "timeToRead": "4",
+      "date": "2025-08-17",
+      "category": "Technology",
+      "url": "/ux-laws-principles-digital-design",
+      "img": "assets/img/blogs/ux-laws-principles-digital-design/UX_Laws_and_Prin.webp",
+      "folder_id": "ux-laws-principles-digital-design"
+    },
+    {
+      "metaTitle": "7 Critical UX Design Fails That Hurt User Experience (And How to Fix Them)",
+      "title": "7 Critical UX Design Fails That Hurt User Experience (And How to Fix Them)",
+      "summary": "Stay tuned! A brand new blog is coming your way soon, packed with fresh insights and updates.",
+      "timeToRead": "4",
+      "date": "2025-08-17",
+      "category": "Technology",
+      "url": "/7-ux-failures",
+      "img": "assets/img/blogs/7-ux-failures/7_Critical_UX_Design_Fails.webp",
+      "folder_id": "7-ux-failures"
+    },
+
+    {
+      "metaTitle": "10 Best UI/UX Websites for Design Inspiration (2025 Guide)",
+      "title": "Top 10 Best UI/UX Websites: Ultimate Design Inspiration Guide 2025  ",
+      "summary": " Discover the top 10 UI/UX websites to fuel your design inspiration. Our 2025 guide features award-winning portfolios and resources for modern web design. Find your next creative breakthrough!",
+      "timeToRead": "4",
+      "date": "2025-08-17",
+      "category": "Technology",
+      "url": "/top-10-ui-ux-websites-design-inspiration",
+      "img": "assets/img/blogs/Top 10 Best UIUX Websites/Hero_img_.webp",
+      "folder_id": "Top 10 Best UI UX Websites"
+    },
+
+    {
+      "metaTitle": "7-Step Structure: Core UX Fundamentals (Expert Perspective for 2025)",
+      "title": "7-Step Structure: Core UX Fundamentals (Expert Perspective for 2025)",
+      "summary": "Discover 6 must-read books that will sharpen your UI/UX design skills and inspire smarter, user-centered creativity.",
+      "timeToRead": "6",
+      "date": "2025-10-18",
+      "category": "Design",
+      "url": "/must-read-Core-UX-Fundamentals",
+      "img": "assets/img/blogs/7-Step Structure/7-Step Structure.webp",
+      "folder_id": "7-Step Structure Core UX"
+    },
+
+    {
+      "metaTitle": "UI Color Theory: A Guide to Choosing Colors for Your App",
+      "title": "7 Color Patterns in UI Design: Your Complete Guide to Creating Memorable Digital Experiences",
+      "summary": "Learn the fundamentals of color theory for UI design, including the color wheel, psychology, and harmony rules. Discover how to create impactful and user-friendly interfaces with the right color palettes.",
+      "timeToRead": "6",
+      "date": "2025-10-14",
+      "category": "Design",
+      "url": "/ui-color-theory-guide",
+      "img": "assets/img/blogs/Color Patterns in UI Design/Color Patterns in UI.webp",
+      "folder_id": "Color Patterns in UI Design"
+    },
+
+    {
+      "metaTitle": "The Ultimate Guide to UX Storyboarding for Blog Design",
+      "title": "The Ultimate Guide to UX Storyboarding for Blog Design",
+      "summary": "Use UX storyboarding to transform your blog. Discover our in-depth 6-step process to chart reader paths, find pain points, increase engagement, and build a blog that users adore and revisit.",
+      "timeToRead": "6",
+      "date": "2025-10-10",
+      "category": "Design",
+      "url": "/ux-storyboarding-for-blog-design",
+      "img": "assets/img/blogs/Ultimate Guide to UX/Ultimate Guide to UX.webp",
+      "folder_id": "Ultimate Guide to UX"
+    },
+
+    {
+      "metaTitle": "The Future of UX/UI: 7 Design Trends for 2025",
+      "title": "UX UI Trends 2025: 7 Significant Design Trends That Will Shape Digital Experiences",
+      "summary": "Explore the most impactful UI/UX design trends for 2025. From the rise of AI-driven personalization to immersive 3D elements, learn how these trends are shaping the future of digital experiences.",
+      "timeToRead": "6",
+      "date": "2025-10-8",
+      "category": "Design",
+      "url": "/ux-ui-design-trends-2025",
+      "img": "assets/img/blogs/UX UI Trends 2025 7 Significant Design/UX UI Trends 2025.webp",
+      "folder_id": "UX UI Trends 2025"
+    },
+
+    {
+      "metaTitle": "UI Testing Guide 2025 | Tools, Challenges & Best Practices",
+      "title": "UI Testing Guide 2025: Tools, Best Practices, and Future Trends",
+      "summary": "Learn what UI testing is, why it matters, and how AI-driven tools, automation, and best practices are shaping the future of user experience in 2025.",
+      "timeToRead": "6",
+      "date": "2025-10-6",
+      "category": "Design",
+      "url": "/UI Testing Guide 2025 Tools",
+      "img": "assets/img/blogs/UI Testing Guide 2025 Tools,/UI Testing Guide 2025.webp",
+      "folder_id": "UI Testing Guide 2025 Tools"
+    },
+
+    {
+      "metaTitle": "he Complete UI/UX Design Process in India: An Expert's Guide",
+      "title": "Complete UI/UX Design Process: An Expert's Guide for India",
+      "summary": "Your expert guide to the end-to-end UI/UX design process in India. From amateur to pro with actionable steps for research, design, prototyping, and testing.",
+      "timeToRead": "6",
+      "date": "2025-10-4",
+      "category": "Design",
+      "url": "/the-complete-ui-ux-design-process",
+      "img": "assets/img/blogs/Complete UIUX Design Process/Hero img.webp",
+      "folder_id": "Complete UIUX Design Process"
+    },
+
+    {
+      "metaTitle": "UI Automation for UX Designers: A Complete Guide",
+      "title": "The Designer's Sidekick: How UI Automation is Transforming the UX World",
+      "summary": "Discover how UI automation is revolutionizing UX design. Learn about automated design tools, AI-powered prototyping, and the future of UI automation in modern design workflows.",
+      "timeToRead": "6",
+      "date": "2025-10-2",
+      "category": "Design",
+      "url": "/ Designer's Sidekick: How UI Automation",
+      "img": "assets/img/blogs/The Designer's Sidekick How UI Automation/The Designer's.webp",
+      "folder_id": "The Designer's Sidekick How UI"
+    },
+
+    {
+      "metaTitle": "5 Accessibility in UX Design: Why It Is Important in 2025 and How to Do It Right",
+      "title": "5 Accessibility in UX Design: Why It Is Important in 2025 and How to Do It Right",
+      "summary": "Make your designs more inclusive! Learn why accessibility matters and how to create user-friendly experiences for everyone.",
+      "timeToRead": "6",
+      "date": "2025-10-1",
+      "category": "Design",
+      "url": "/5Accessibility in UX Design",
+      "img": "assets/img/blogs/5-accessibility-in-ux-design/5Accessibility in UX Design.webp",
+      "folder_id": "5-accessibility-in-ux-design"
+    },
+    {
+      "metaTitle": "UI vs UX Design: Key Differences, Skills & Career Paths 2025",
+      "title": "UI vs UX Design: Key Differences, Skills & Career Paths 2025",
+      "summary": "Discover the difference between UI and UX design with real examples, required skills, salary expectations, and career paths. Learn which design role suits you best.",
+      "timeToRead": "13",
+      "date": "2025-12-21",
+      "category": "Design",
+      "url": "/ui-ux-design-guide-2025",
+      "img": "assets/img/blogs/ui-ux-design-2025/ui-ux-design-2025.png",
+      "folder_id": "ui-ux-design-2025"
+    },
+
+    {
+      "metaTitle": "Beyond the Portfolio: Ranking Top UX Agencies by Ethics, AI, and Strategic Process",
+      "title": "Beyond the Portfolio: Ranking Top UX Agencies by Ethics, AI, and Strategic Process",
+      "summary": "Go past design awards. Vetting the top UX agencies requires scrutiny of ethical design, AI strategy, and robust process. Use our 7 Pillars framework to select a partner for systemic organizational change.",
+      "timeToRead": "13",
+      "date": "2025-12-23",
+      "category": "Design",
+      "url": "/beyond-portfolio-7-pillars-ranking-top-ux-agencies-ethics-ai-process",
+      "img": "assets/img/blogs/7-pillars-ranking-top-ux/7-pillars-ranking-top-ux.jpg",
+      "folder_id": "7-pillars-ranking-top-ux"
+    },
+
+    {
+      "metaTitle": "The Economics of Experience: Quantifiable ROI and Psychological Laws of UX Design",
+      "title": "The Economics of Experience: Exemplary UX Design Patterns, Psychological Principles, and Quantifiable ROI",
+      "summary": "Discover the 9.0 ROI of superior UX. This deep dive covers Fitts's Law, Hick's Law, and exemplary patterns for activation, revealing how psychological principles drive $260B in recoverable e-commerce revenue.",
+      "timeToRead": "13",
+      "date": "2025-12-23",
+      "category": "Design",
+      "url": "/economics-of-experience-roi-psychological-laws-ux-design",
+      "img": "assets/img/blogs/economics-of-experience/economics-of-experience.jpg",
+      "folder_id": "economics-of-experience"
+    },
+
+     {
+      "metaTitle": "UX Writing Guide 2026: Principles, Examples & AI Techniques",
+      "title": "UX Writing Guide 2026: Principles, Examples & AI Techniques",
+      "summary": "Master UX writing with proven frameworks, real examples from Airbnb & Booking.com, A/B testing strategies, and 2025 AI trends. Boost conversions by up to 45%.",
+      "timeToRead": "13",
+      "date": "2025-12-24",
+      "category": "Design",
+      "url": "/ux-writing-guide-2025-principles-examples",
+      "img": "assets/img/blogs/2026-complete-ux-writing-guide/2026-complete-ux-writing-guide.jpg",
+      "folder_id": "2026-complete-ux-writing-guide"
+    },
+
+     {
+      "metaTitle": "Vetting Web Development in Chandigarh: 5 Non-Negotiable Criteria & Delhi NCR Strategy",
+      "title": "Tri-City Tech Triumphs: The Expert’s Guide to Vetting a Web Development Company in Chandigarh and the Strategic Value of Delhi NCR Partners",
+      "summary": "Beyond locality: Use our 5-point matrix to vet web development partners in Chandigarh/Mohali. Prioritize process rigor, specialization, and strategic value (like Anarish Innovations) for high-ROI digital assets.",
+      "timeToRead": "13",
+      "date": "2025-12-27",
+      "category": "Design",
+      "url": "/vetting-web-development-chandigarh-5-criteria-delhi-ncr-strategy",
+      "img": "assets/img/blogs/web-development-company/web-development-company.jpg",
+      "folder_id": "web-development-company"
+    },
+
+     {
+      "metaTitle": "Card Sorting in UX Design: Complete Guide + Examples 2025 (60 chars)",
+      "title": "Card Sorting: The UX Technique That Boosted Usage by 40%",
+      "summary": "Master card sorting in UX design with step-by-step methods, real examples, and proven techniques. Learn open, closed & hybrid sorting to boost usability by 40%. (158 chars)",
+      "timeToRead": "13",
+      "date": "2025-12-29",
+      "category": "Design",
+      "url": "/card-sorting-ux-design-complete-guide",
+      "img": "assets/img/blogs/card-sorting-ux/card-sorting-ux.jpg",
+      "folder_id":"card-sorting-ux"
+    },
+
+    
+
+
+    {
+      "metaTitle": "Top 10 Web Development Companies Mumbai: Expert Analysis 2025",
+      "title": "Best Web Development Company in Mumbai: Your Complete 2026 Guide",
+      "summary": "Compare Mumbai's top web development companies: TCS, Webenza, SySpree & more. Discover why 2,500+ agencies exist but only few deliver. Includes pricing & reviews. (159 chars)",
+      "timeToRead": "13",
+      "date": "2025-12-29",
+      "category": "Design",
+      "url": "/best-web-development-company-mumbai-2025",
+      "img": "assets/img/blogs/mumbai-2026-web-guide/mumbai-2026-web-guide.jpg",
+      "folder_id":"mumbai-2026-web-guide"
+    },
+
+    {
+      "metaTitle": "WordPress Website Development Cost in India (2025): Strategic Pricing & TCO Guide",
+      "title": "The Definitive Guide to WordPress Website Development Cost in India: A 2025 Strategic Pricing Report",
+      "summary": "Decode the true cost of a WordPress website in India for 2025 (₹10K to ₹20L+). Includes detailed pricing matrix, hidden TCO, expert hourly rates, and the strategic impact of custom code vs. templates.",
+      "timeToRead": "13",
+      "date": "2025-12-29",
+      "category": "Design",
+      "url": "/definitive-guide-wordpress-website-cost-india-2025",
+      "img": "assets/img/blogs/wordpress-cost-2026/wordpress-cost-2026.jpg",
+      "folder_id":"wordpress-cost-2026"
+    }
+
+  
+
+  ]
+}

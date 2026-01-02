@@ -1,0 +1,64 @@
+{
+  "faqs": [
+    {
+      "question": "What does the \"Anti-Mumbai Agency Model\" mean, and why is it ideal for Tri-City businesses?",
+      "answer": "The Anti-Mumbai Agency Model prioritizes proven talent, speed, and outcomes over inflated Tier-1 city overheads. By operating outside high-cost metros, agencies like Anarish Innovations deliver enterprise-grade strategy, design, and development services at 40–60% lower costs—without compromising quality—for Tri-City clients."
+    },
+    {
+      "question": "What three core technology capabilities should a full-service Chandigarh digital partner excel in?",
+      "answer": "A reliable full-service partner must demonstrate expertise across three pillars: modern frontend frameworks such as React and Vue.js, robust backend development using Node.js or Python for scalable APIs, and deep CMS specialization—especially WordPress and WooCommerce—for fast, maintainable web solutions."
+    },
+    {
+      "question": "Why is a well-defined Statement of Work (SOW) critical to preventing scope creep?",
+      "answer": "A precise Statement of Work clearly documents deliverables, timelines, and responsibilities before development begins. This clarity eliminates ambiguity, protects both parties from unplanned feature additions, and prevents budget overruns that often occur when scope is not tightly controlled."
+    },
+    {
+      "question": "What does \"Guaranteed Founder Involvement\" actually ensure on high-impact projects?",
+      "answer": "Guaranteed Founder Involvement means senior leadership—such as founders Charu Maheshwari and Suman—actively supervise key milestones, decision-making, and quality assurance. This ensures strategic continuity and eliminates the risk of experienced leadership disappearing after the sales phase."
+    },
+    {
+      "question": "What is the biggest financial risk of not having an Annual Maintenance Contract (AMC)?",
+      "answer": "Skipping an AMC may seem cost-effective initially, but it exposes businesses to far higher losses from security breaches, downtime, or system failures caused by outdated software. Compared to an annual AMC cost of ₹10,000–₹50,000, recovery from a single incident can be exponentially more expensive."
+    },
+    {
+      "question": "How many people do I need for card sorting?",
+      "answer": "15–20 participants show stable patterns. More than 20, you reach a point of diminishing returns. For closed card sorting, 10–15 may be sufficient."
+    },
+    {
+      "question": "How long does a session take?",
+      "answer": "30–60 minutes for most studies. With 40–50 cards, plan for 45 minutes. If sessions exceed an hour, you have too many cards."
+    },
+    {
+      "question": "Can I do card sorting remotely?",
+      "answer": "Yes, digital card sorting is a standard practice. Remote studies let you recruit from anywhere, test more people efficiently, and get automated analysis."
+    },
+    {
+      "question": "What if participants disagree?",
+      "answer": "This is normal and valuable. Consider placing items in multiple locations, rewording confusing labels, or realizing that different user segments organize differently."
+    },
+    {
+      "question": "Should I do open or closed card sorting?",
+      "answer": "Open: new projects, no existing structure, want unbiased insights. Closed: testing existing structure, validating hypothesis, and fixing constraints. Hybrid: refining problematic existing structure."
+    },
+    {
+      "question": "What's the difference between card sorting and tree testing?",
+      "answer": "Card sorting = Users CREATE the structure (generative). Tree testing = Users NAVIGATE existing structure (evaluative). Do card sorting first, then tree testing to validate."
+    },
+    {
+      "question": "What if my boss disagrees with the results?",
+      "answer": "Present information, not opinions. Show similarity matrices, user quotes, and fast usability comparisons. When the stakeholder sees users struggle with their preferred organization vs. succeed with the user-informed structure, the data wins."
+    },
+    {
+      "question": "Can card sorting work for mobile apps?",
+      "answer": "Yes, but bear in mind mobile constraints: fewer top-level categories—most 5–7, simpler navigation, limited screen space. Card sorting will uncover the ideal organization; adapt it."
+    },
+    {
+      "question": "How often should I do card sorting?",
+      "answer": "When: Launching a new product, major redesign, adding significant features, users complain about navigation, and analytics shows problems. Not needed for: Minor updates, small features, cosmetic changes."
+    },
+    {
+      "question": "What do I do with cards that nobody groups?",
+      "answer": "Orphan cards present great insight: They might not be a good fit for your product, need clearer naming, need to be in standalone categories, or are better suited as search-only features."
+    }
+  ]
+}

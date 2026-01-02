@@ -1,0 +1,221 @@
+<main class="theme-color-bg-white">
+  <section class="masthead strategy">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column mb-4 mb-lg-0">
+          <div class="outer">
+            <div class="breadcrumb">
+              <p><a routerLink="/design">Design</a> > <span class="current-page">Print Design</span></p>
+            </div>
+            <h1>Print That Leaves a Lasting Impression</h1>
+            <p class="sub-heading">
+              We craft high-impact print designs that communicate clearly and elevate your brand.
+            </p>
+            <button class="btn btn-primary btn-style" routerLink="/contact-us">
+              Book Your Strategy Call
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-6 position-relative mt-3 mt-lg-0">
+          <div class="img-cap">
+            <picture>
+              <img
+                src="/assets/img/main/Design.webp"
+                class="img-fluid"
+                alt="Print Design"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Content Section -->
+<section class="content-section py-5 bg-white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img
+          src="/assets/img/main/design/Sort Branding.webp"
+          alt="Print Design"
+          class="img-fluid rounded"
+        />
+      </div>
+      <div class="col-lg-6">
+        <div class="ps-lg-4">
+          <span class="badge bg-primary text-white mb-3 px-3 py-2">Print Design</span>
+          <h2 class="display-5 font-weight-bold mb-3">
+            Print That Leaves a Lasting Impression
+          </h2>
+          <h4 class="text-muted mb-4">Where Tangibility Meets Thoughtfulness</h4>
+          <p class="lead text-muted mb-4">
+            In a digital-first world, print materials stand out by offering something tactile and memorable. 
+            Our print design services transform your brand message into physical assets that captivate and 
+            engage your audience.
+          </p>
+          <p class="text-muted mb-4">
+            From brochures and business cards to packaging and event materials, we create print designs 
+            that reflect your brand's personality while delivering exceptional visual impact. Every piece 
+            is crafted with attention to detail, ensuring quality that speaks volumes about your business.
+          </p>
+          <p class="text-muted">
+            Whether you need marketing collateral, corporate stationery, or product packaging, our designs 
+            combine aesthetic excellence with practical functionality, creating print materials that leave 
+            a lasting impression on your customers.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Approach Section -->
+<section class="approach-section py-5 bg-dark text-white">
+  <div class="container">
+    <div class="row mb-5 align-items-center">
+      <div class="col-lg-6 col-12">
+        <p class="section-heading-tag text-primary mb-2">What we offer</p>
+        <h2 class="font-weight-bold mb-0" style="font-size:32px;">
+          Designing Print Materials that Speak Volumes
+        </h2>
+      </div>
+      <div class="col-lg-6 col-12">
+        <p class="lead mb-3">
+          We create visually stunning print designs that integrate branding, responsive layouts, and innovative mobile app concepts using cutting-edge technology.
+        </p>
+        <a class="btn-link mt-4 d-inline-block text-white fw-bold" [routerLink]="['/contact-us']">
+          Let's Build Together
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+            <path d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="row g-4 mt-4">
+      <div class="col-lg-3 col-md-6" *ngFor="let item of approachCards">
+        <div class="approach-card h-100 p-4 text-center">
+          <div class="icon-wrapper mb-3" [innerHTML]="item.icon"></div>
+          <h5 class="mb-3">{{ item.title }}</h5>
+          <p class="text-white mb-0">{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Work Section -->
+  <section class="work">
+    <div class="container">
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 gap-md-2 mb-4 mb-md-0"
+      >
+        <div class="work-header">
+          <div class="our-work">
+            <p>Our Work</p>
+          </div>
+          <h2 class="section-header">Case Studies to understand our process & results</h2>
+        </div>
+
+        <a
+          type="button"
+          class="btn-link mt-4 d-inline-block"
+          [routerLink]="['/portfolio']"
+        >
+          View All
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+          >
+            <path
+              d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5"
+              stroke="#121212"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="section-content mt-3 mt-xl-5">
+        <div class="row">
+          <div
+            class="col-12 col-xl-6 col-lg-6 mb-4"
+            *ngFor="let card of printData; trackBy: trackById"
+          >
+            <div class="card rounded-4 h-100">
+              <div class="bg-light rounded-4">
+                <ng-container
+                  *ngIf="card.id === 'autonativeai'; else imageBlock"
+                >
+                  <video
+                    #portfolioVideo
+                    class="w-100 rounded-4"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                  >
+                    <source
+                      src="/assets/img/main/strategy/Autonerve-AI-Animation.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                </ng-container>
+
+                <ng-template #imageBlock>
+                  <img
+                    [src]="card['bg-img']"
+                    [alt]="card.title"
+                    class="img-fluid w-100 d-none d-md-block"
+                  />
+                  <img
+                    [src]="card.img"
+                    [alt]="card.title"
+                    class="img-fluid w-100 d-block d-md-none"
+                  />
+                </ng-template>
+              </div>
+
+              <div class="p-4">
+                <h4 class="fw-bold mb-2">{{ card.title }}</h4>
+                <p class="text-muted mb-3">{{ card.summary }}</p>
+
+                <div class="badges-wrapper d-flex gap-2">
+                  <div class="badge badge-work" *ngFor="let tag of card.tags">
+                    {{ tag }}
+                  </div>
+                </div>
+
+                <a
+                  class="btn-link mt-4 d-inline-block"
+                  [routerLink]="['/portfolio', card.url.slice(1)]"
+                  (click)="onCaseStudyClick(card.id)"
+                >
+                  View Case Study
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                  >
+                    <path
+                      d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5"
+                      stroke="#121212"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

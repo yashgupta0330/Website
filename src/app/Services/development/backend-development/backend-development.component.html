@@ -1,0 +1,65 @@
+<main class="theme-color-bg-white">
+  <section class="masthead strategy">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column mb-4 mb-lg-0">
+          <div class="outer">
+            <div class="breadcrumb">
+              <p><a routerLink="/development">Development</a> > <span class="current-page">Backend Development</span>
+              </p>
+            </div>
+            <h1>Powerful Backend Solutions</h1>
+            <p class="sub-heading">
+              Robust backend development with MySQL, PHP, Laravel, Python, Node.js, and Express.js
+              to build scalable, secure, and high-performance server-side applications.
+            </p>
+
+            <button class="btn btn-primary btn-style" routerLink="/contact-us">
+              Start Your Project
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-6 position-relative mt-3 mt-lg-0">
+          <div class="img-cap">
+            <picture>
+              <img src="/assets/img/main/Development.webp" class="img-fluid" alt="Backend Development" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work">
+    <div class="container">
+      <div class="section-content mt-3 mt-xl-5">
+        <div class="row">
+          <div class="col-12 col-xl-6 col-lg-6 mb-4" *ngFor="let study of backendData; trackBy: trackById">
+            <div class="card rounded-4 h-100">
+              <div class="bg-light rounded-4">
+                <img [src]="study['bg-img']" [alt]="study.title" class="img-fluid w-100 d-none d-md-block" />
+                <img [src]="study.img" [alt]="study.title" class="img-fluid w-100 d-block d-md-none" />
+              </div>
+
+              <div class="p-xl-4 p-md-3 p-2">
+                <h4 class="fw-bold mb-2">{{ study.title }}</h4>
+                <p class="text-muted mb-3">{{ study.summary }}</p>
+                <div class="badges-wrapper d-flex gap-2">
+                  <div class="badge badge-work" *ngFor="let tag of study.tags">{{ tag }}</div>
+                </div>
+
+                <a class="btn-link mt-4 d-inline-block" [routerLink]="['/portfolio', study.url.slice(1)]">
+                  View Case Study
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <path d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5" stroke="#121212" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

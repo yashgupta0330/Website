@@ -1,0 +1,26 @@
+{
+    "faqs": [
+      {
+        "question": "What is the difference between UX design and UI design?",
+        "answer": "UI (User Interface) deals with the visual things, buttons, color, layout etc. and UX (User Experience) is about the end-to-end user experience and how it feels."
+      },
+      {
+        "question": "How long does it take to learn UI/UX design?",
+        "answer": "With daily practice it can take anywhere between 3-6 months for basic UI/UX. To be work-ready will take anywhere between 6-12 months of serious commitment study and portfolio building."
+      },
+      {
+        "question": "What do UI/UX designers use? ",
+        "answer": "Figma and Adobe XD are the most popular design tools. Balsamiq is used for wireframing and InVision is used for prototyping. Figma is recommended for beginners due to its collaborative capabilities."
+      },
+      {
+        "question": "Do I have to know how to code to do UI/UX design?",
+        "answer": "It's not required but it's helpful. Knowing basic HTML and CSS will help designers and developers work better together and provide more realistic and implementable designs."
+      },
+      {
+        "question": "What is user research in UX design?",
+        "answer": "User research is the investigation of target users through things like surveys, interviews, and testing to learn about their needs, behaviors, and pain points before coming up with solutions."
+      }
+
+    ]
+  }
+  

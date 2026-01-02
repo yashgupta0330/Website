@@ -1,0 +1,171 @@
+/* Overview section background color */
+.sass-design {
+  background: #FAFAFA;
+}
+
+/* Design section background color */
+.almo-design-section{
+  background-color: #FAFAFA;
+}
+/* Design cards for frame14 and frame15 images */
+.almo-design-card {
+  background: #FFFFFF;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.25rem 2rem rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+
+.almo-card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.almo-card-desc {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+/* Gradient background for Colors card */
+.almo-design-card.colors-card {
+  background: linear-gradient(178.58deg, rgba(255, 255, 255, 0.52) -20.7%, rgba(19, 122, 226, 0.52) 121.63%);
+}
+
+/* Gradient background for Dual View card */
+.almo-design-card.dual-view-card {
+  background: linear-gradient(178.58deg, rgba(255, 255, 255, 0.52) -20.7%, rgba(19, 122, 226, 0.52) 121.63%);
+}
+
+/* Gray background for Connect DevOps Server card */
+.almo-design-card.connect-devops-card {
+  background: #F0F0F0;
+}
+
+
+
+/* === Stats Grid (copied from lms/finc for right section) === */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  /* padding-top: 2rem; */
+}
+
+@media (min-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 2.5rem;
+    row-gap: 1.5rem;
+  }
+}
+
+/* LABEL */
+.stat-label {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .stat-label {
+    font-size: 1rem;
+  }
+}
+
+/* VALUE */
+.stat-value {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+  line-height: 1.4;
+  letter-spacing: 0;
+  word-break: break-word;
+}
+
+@media (min-width: 768px) {
+  .stat-value {
+    font-size: 1.5rem;
+  }
+}
+
+/* Tools styling */
+.tools-item .stat-label {
+  margin-bottom: 0.75rem;
+}
+
+.tools-icons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tools-icons img {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.almo-persona-img:first-of-type {
+  margin-bottom: 25px;
+}
+
+.service-header.section-header .almo-break {
+  display: inline;
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .service-header.section-header .almo-break {
+    display: block;
+    margin-top: 0.1em;
+  }
+}
+.almo-purpose-desc {
+  font-size: 1.08rem;
+  line-height: 1.38;
+  word-break: break-word;
+  margin-bottom: 2rem;
+}
+
+.sass-design .almo-overview-title {
+  font-size: 1.35rem;
+  line-height: 1.22;
+}
+
+@media (min-width: 768px) {
+  .sass-design .almo-overview-title {
+    font-size: 2rem;
+  }
+}
+
+.sass-design .overview-desc {
+  font-size: 16px;
+  line-height: 1.55;
+  color: #444;
+  background-color: #FAFAFA;
+  word-break: break-word;
+}
+
+/* Gap utility for desktop and mobile */
+@media (min-width: 768px) {
+  .gap-4 {
+    gap: 1.5rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .gap-4 {
+    gap: 0 !important;
+  }
+}
+

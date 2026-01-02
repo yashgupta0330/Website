@@ -1,0 +1,60 @@
+ul li {
+   margin-bottom: 5px;
+ }
+
+ .liweight{
+    font-weight:600;
+ }
+
+.my-5{
+   display: flex;
+   justify-content: center;
+   
+
+
+}
+/** Common styles to be used in all blogs **/
+section {
+   padding: 0 0 2.25rem;
+}
+
+.blog-content section:last-of-type {
+   padding:0;
+}
+
+h2,
+h3,
+h4 {
+   margin-bottom: 16px;
+   font-weight: 600;
+   color: #121212;
+}
+
+@media (min-width:1200px) {
+   .blog-content-wrapper h2 {
+      font-size: 1.5rem;
+   }
+}
+
+@media (min-width:1200px) {
+   .blog-content-wrapper h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+   }
+}
+
+ul,
+ol {
+   padding-left: 24px;
+   li {
+      margin-bottom: 8px;
+   }
+}
+
+
+
+section:last-child {
+  margin-bottom: 0 !important; /* only affects last section */
+}
+/** Common styles to be used in all blogs Ends here**/
+  

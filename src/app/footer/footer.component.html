@@ -1,0 +1,77 @@
+<footer class="footer">
+    <div class="container nav-space">
+        <app-cta-card *ngIf="shouldShowCTA"></app-cta-card>
+        <button (click)="scrollToTop()" id="scrollTopBtn"
+                title="Back to top"
+                aria-label="Back to top" class="top-link">
+           
+            <i class="fa fa-arrow-up" aria-label=" Back to Top of the page"></i>
+        </button>
+        <div class="row flex-column flex-xl-row-reverse">
+            <div class="col-12 col-xl-7">
+                <div class="row ">
+                    <div class="col-lg-4 col-xl-4 col-12 outer-links">
+                        <p class="footer-para">Solutions</p>
+                        <div class="links">
+                            <p> <a class="btn-link links-gap" routerLink="Solutions/saas-design">SaaS Design</a> </p>
+                            <p> <a class=" btn-link links-gap" routerLink="Solutions/app-design">App Design</a> </p>
+                            <p> <a class=" btn-link links-gap" routerLink="Solutions/websites">Website & Landing
+                                    Pages</a> </p>
+                            <p> <a class=" btn-link links-gap" routerLink="Solutions/branding">Branding</a> </p>
+                            <p> <a routerLink="Solutions/interactive-demos" class="btn-link links-gap">Interactive
+                                    Demos</a> </p>
+                            <p> <a routerLink="Solutions/digital-marketing" class="btn-link ">Digital Marketing</a> </p>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-xl-4 col-12 outer-links">
+                        <p class="footer-para">Services</p>
+                        <div class="links">
+                            <p> <a class="btn-link links-gap" routerLink="/strategy">Strategy</a> </p>
+                            <p> <a class=" btn-link links-gap" routerLink="/design">Design</a> </p>
+                            <p> <a class=" btn-link links-gap" routerLink="/development">Development</a> </p>
+                            <p> <a class=" btn-link " routerLink="/">Staff Augmentation</a> </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 col-12 outer-links">
+                        <p class="footer-para">
+                            Quick Links
+                        </p>
+                        <div class="links">
+                            <p> <a class="btn-link links-gap" routerLink="/portfolio">Portfolio</a> </p>
+                            <p> <a class=" btn-link links-gap" routerLink="/about-us">About Us</a> </p>
+                            <p> <a class=" btn-link links-gap" routerLink="/learning-management-system">LMS</a> </p>
+                            <p> <a class=" btn-link links-gap" routerLink="/blogs">Blogs</a> </p>
+                            <p> <a routerLink="/contact-us" class="btn-link">Contact Us</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-xl-5 d-flex flex-column h-100 justify-content-between">
+                <div class="mb-4">
+                    <h2 class="conversation mb-3">Let's Talk</h2>
+                    <p class="email mb-3">
+                        <a class="btn-link" href="mailto:marketing@anarish.com">marketing&#64;anarish.com </a>
+                    </p>
+                    <div class="our-address mb-3">
+                        <p class="address mb-2">Delhi NCR, Faridabad, Haryana</p>
+                        <p class="address mb-0">+91-9899844180</p>
+                    </div>
+                </div>
+                <div class="social-media-links mt-3">
+                    <a href="https://www.instagram.com/anarishinnovations?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="assets/img/instagram.svg" alt="instagram" class="img-fluid"></a>
+                    <a href="https://www.facebook.com/people/Anarish-Innovations/61550937362688/"> <img src="assets/img/facebook.svg" alt="facebook" class="img-fluid"></a>
+                    <a href="https://www.linkedin.com/company/anarish/"><img src="assets/img/linkedin.svg" alt="linkedin" class="img-fluid"> </a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 offset-xl-7 col-xl-5 d-flex align-items-end justify-content-end">
+                <p class="condition mb-0">COPYRIGHT © ANARISH INNOVATIONS 2024-2025</p>
+            </div>
+        </div>
+    </div>
+</footer>

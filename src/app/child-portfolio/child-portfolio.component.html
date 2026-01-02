@@ -1,0 +1,159 @@
+<app-internal-loader></app-internal-loader>
+<main>
+    <section class="masthead">
+        <div class="container">
+            <!-- Full width heading -->
+            <div class="row">
+                <div class="col-12 d-flex flex-column align-items-start py-4">
+                    <div class="breadcrumb mb-3">
+                       
+                    </div>
+                    <div class="back-button mb-3">
+                        <a (click)="goBack()" class="back-link" style="cursor: pointer;">
+                            <div class="d-flex gap-2 align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M20.2476 14.0011C20.2476 14.2248 20.1587 14.4395 20.0005 14.5977C19.8422 14.7559 19.6276 14.8448 19.4039 14.8448H9.62816L13.2512 18.4662C13.3297 18.5446 13.3919 18.6378 13.4344 18.7403C13.4768 18.8428 13.4987 18.9526 13.4987 19.0636C13.4987 19.1745 13.4768 19.2844 13.4344 19.3869C13.3919 19.4894 13.3297 19.5825 13.2512 19.6609C13.1728 19.7394 13.0796 19.8016 12.9771 19.8441C12.8747 19.8865 12.7648 19.9084 12.6539 19.9084C12.5429 19.9084 12.4331 19.8865 12.3306 19.8441C12.2281 19.8016 12.1349 19.7394 12.0565 19.6609L6.99398 14.5984C6.9154 14.5201 6.85306 14.427 6.81052 14.3244C6.76799 14.2219 6.74609 14.112 6.74609 14.0011C6.74609 13.8901 6.76799 13.7802 6.81052 13.6777C6.85306 13.5752 6.9154 13.4821 6.99398 13.4037L12.0565 8.34119C12.2149 8.18276 12.4298 8.09375 12.6539 8.09375C12.8779 8.09375 13.0928 8.18276 13.2512 8.34119C13.4097 8.49962 13.4987 8.71451 13.4987 8.93857C13.4987 9.16263 13.4097 9.37751 13.2512 9.53594L9.62816 13.1573H19.4039C19.6276 13.1573 19.8422 13.2462 20.0005 13.4044C20.1587 13.5627 20.2476 13.7773 20.2476 14.0011Z"
+                                        fill="#121212" />
+                                </svg>
+                                <span>Portfolio</span>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <h1 class="fw-bold mb-lg-4 mb-0 header portfolio-heading-break" *ngIf="portfolioData?.['detail-page']?.heading">
+                        {{ portfolioData['detail-page'].heading.split(' ').slice(0, -1).join(' ') }}
+                        <span class="break-experience">{{ portfolioData['detail-page'].heading.split(' ').slice(-1)[0] }}</span>
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Details + Image -->
+            <div class="row row-y-gap">
+                <!-- Details section -->
+                <div class="col-12 col-lg-6 col-xl-6 d-flex align-items-start ">
+                    <div *ngIf="portfolioData">
+                        <div class="detail-section ">
+                            <!-- <p class="mb-2"><strong class="text-uppercase small">Client</strong><br />{{
+                                portfolioData['detail-page']?.client }}</p> -->
+                            <div class="wrap">
+                                <p class="head text-uppercase mb-2">Client</p>
+                                <p class="h4  data ">{{
+                                    portfolioData['detail-page']?.client }}</p>
+                            </div>
+                            <div class="wrap">
+                                <p class="head text-uppercase mb-2">Industry</p>
+                                <p class="h4 data ">{{
+                                    portfolioData['detail-page']?.industry }}</p>
+                            </div>
+                            <div class="wrap">
+                                <p class="head text-uppercase mb-2">Region</p>
+                                <p class="h4 data ">{{
+                                    portfolioData['detail-page']?.region }}</p>
+                            </div>
+                            <div class="wrap">
+                                <p class="head text-uppercase mb-2">Platform</p>
+                                <p class="h4 data ">{{
+                                    portfolioData['detail-page']?.platform }}</p>
+                            </div>
+
+                            <div class="wrap services-wrap">
+                                <p class="head text-uppercase mb-2">Services</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge badge-work" *ngFor="let tag of getAllTags()">{{ tag }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image section -->
+                <div class="col-12 col-lg-6 col-xl-6 position-relative mt-3 mt-lg-0 ps-lg-5">
+                    <div class="wrapper">
+                        <img *ngIf="portfolioData" [src]="getCaseStudyImage()" [alt]="portfolioData.title"
+                            class="img-fluid " />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Injected Case Study HTML -->
+    <section class="case-study-html py-0" *ngIf="caseStudyHtml">
+        <div [innerHTML]="caseStudyHtml"></div>
+    </section>
+
+    <!-- ...existing code... -->
+
+    <!-- Related Cards Section -->
+    <section class="work " *ngIf="relatedCards.length">
+        <div class="container">
+            <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 gap-md-2 mb-4 mb-md-0">
+                <div class="work-header">
+                    <div class="our-work">
+                        <p class="section-heading-tag">Related Case Studies</p>
+                    </div>
+                    <h2 class="section-header">Explore more from our work</h2>
+                </div>
+
+                <a type="button" class="btn-link mt-4 d-inline-block" (click)="goBack()">
+                    View All
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5" stroke="#121212" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="section-content mt-3 mt-xl-5">
+                <div class="row">
+                    <div class="col-12 col-xl-6 col-lg-6 mb-4" *ngFor="let card of relatedCards; trackBy: trackById">
+                        <div class="card rounded-4 h-100">
+                            <div class="bg-light rounded-4">
+                                <ng-container *ngIf="card.id === 'autonative-ai'; else imageBlock">
+                                    <video #portfolioVideo class="w-100 rounded-4" autoplay muted loop playsinline>
+                                        <source src="/assets/img/main/strategy/Autonerve-AI-Animation.mp4"
+                                            type="video/mp4" />
+                                    </video>
+                                </ng-container>
+
+                                <ng-template #imageBlock>
+                                    <img [src]="card['bg-img']" [alt]="card.title"
+                                        class="img-fluid w-100 d-none d-md-block" />
+                                    <img [src]="card.img" [alt]="card.title"
+                                        class="img-fluid w-100 d-block d-md-none" />
+                                </ng-template>
+                            </div>
+
+                            <div class="p-4">
+                                <h4 class="fw-bold mb-2">{{ card.title }}</h4>
+                                <p class="text-muted mb-3">{{ card.summary }}</p>
+
+                                <div class="badges-wrapper d-flex gap-2">
+                                    <div class="badge badge-work" *ngFor="let tag of card.tags">
+                                        {{ tag }}
+                                    </div>
+                                </div>
+
+                                <a class="btn-link mt-4 d-inline-block" [routerLink]="['/portfolio', card.url.slice(1)]">
+                                    View Case Study
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                        fill="none">
+                                        <path d="M5 12.5L19 12.5M19 12.5L12 5.5M19 12.5L12 19.5" stroke="#121212"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

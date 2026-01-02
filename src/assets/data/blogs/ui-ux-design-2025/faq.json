@@ -1,0 +1,23 @@
+{
+    "faqs": [
+      {
+        "question": "Is UX included in UI, or is UI included in UX?",
+        "answer": "Neither. They're overlapping areas of study with different jobs. UX is about overall experience strategy, and UI is about visual and interactive design. Consider overlapping circles, not nested boxes."
+      },
+      {
+        "question": "Which is paid more: a UX or a UI Designer?",
+        "answer": "Statistically speaking, UX Designers make 5-10% more because they are strategically contributing to business decisions. Senior UI Designers doing design systems or creative direction are usually paid similarly or more. Title doesn't matter as much as location, industry, and company size."
+      },
+      {
+        "question": "Can I move between UI and UX roles?",
+        "answer": "Yes. Most Designers transition or become hybrid product Designers. To make the transition from UI to UX, concentrate on learning user research, information architecture, and usability testing. To make the transition from UX to UI, acquire visual design skills, learn typography and color theory, and gain high-fidelity design experience."
+      },
+      {
+        "question": "Do I require coding skills for UI or UX design?",
+        "answer": "Not necessary, but useful. UX Designers are helped by knowing technical limitations and opportunities. UI Designers who are familiar with HTML/CSS are able to talk better with developers and produce more viable designs. But neither of these roles needs actual development capability—that's what front-end developers are for."
+      }
+  
+
+    ]
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "faqs": [
+      {
+        "question": " What is the 60-30-10 rule, and how can I use it in UI design?",
+        "answer": "The 60-30-10 rule is a timeless rule of color harmony where 60% of your interface employs a neutral dominant color (typically backgrounds), 30% employs a secondary color (typically for content or card areas), and 10% employs an accent color (buttons, links, and call-to-action elements). In the UI design, this generally means employing light grays or whites as backgrounds, medium colors for panels or sections, and bright colors minimally for interactive items. This establishes visual hierarchy and avoids color overload, and ensures critical actions are prominent."
+      },
+      {
+        "question": "How do I select colors that are accessible to all users?",
+        "answer": "Color accessibility mainly deals with contrast ratios. Background and text combinations need to comply with WCAG standards: 4.5:1 contrast ratio for regular text and 3:1 for large text (18pt+ or 14pt+ bold). Do not use color alone to present information - add icons, labels, or patterns. Take color blindness into account by testing your palette with Stark or ColorBrewing, and steer clear of bad combinations such as red-green for important differences. Also, make sure interactive elements have enough contrast in all states (hover, focus, disabled)."
+      },
+      {
+        "question": "What is the difference between warm and cool colors in UI design, and how should I use them?",
+        "answer": "Warm colors (yellows, oranges, reds) come across as energetic, urgent, and attention-seeking, so they are perfect for call-to-action buttons, notifications, or brands that need to express excitement and energy. Cool colors (blues, purples, greens) come across as calm, reliable, and professional, and can be used for backgrounds, business use, or finance, health care, or tech brands. Most effective interfaces employ cool colors as a base with warm highlight colors for actions, providing an even sense that is friendly and professional."
+      }
+    ]
+  }
+  

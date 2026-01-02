@@ -1,0 +1,26 @@
+{
+    "faqs": [
+      {
+        "question": "How is a UX storyboard different from a user journey map? ",
+        "answer": "A user journey map is a big-picture, widescreen view of the entire customer journey, typically across many channels and over a long time. A UX storyboard zooms in on one particular scenario in that journey, showing in vivid detail a single interaction with your blog. Imagine the journey map is the whole movie plot and the storyboard is one single, pivotal scene."
+      },
+      {
+        "question": " Do I have to be a great artist to make a UX storyboard?",
+        "answer": "Not at all! One of the biggest myths. It's about clear communication, not great art. Stick figures, basic shapes, and concise captions are all you require to tell a compelling user story. Indeed, too-fancy drawings can sometimes make team members afraid to give feedback."
+      },
+      {
+        "question": " How should I select the correct scenario for my initial storyboard? ",
+        "answer": "Begin with the most problematic or vital part of your user journey. Check your analytics: where is your highest exit page? Listen to user complaints: what do people complain about most? Emphasizing a high-pain, high-impact scenario will provide the greatest value first."
+      },
+      {
+        "question": " Do I have the ability to storyboard an existing blog and enhance it?",
+        "answer": "Yes, definitely. This is perhaps the most effective application of storyboarding. By tracing out the existing experience of an important task on your current blog, you can see at a glance exactly where users are running into trouble and use that as a data-driven basis for a redesign."
+      },
+      {
+        "question": "Where does accessibility come in with UX storyboarding? ",
+        "answer": "Accessibility needs to be taken into account right from the outset. You can add in your captions notes on the experience for a screen reader user or someone using a keyboard. For instance, a heading would say: Aria, who is blind, listens to the headings using her screen reader to take in the gist of the article. The ambiguous heading structure makes this hard. This creates empathy and ensures that inclusive design is made part of the core process."
+      }
+
+    ]
+  }
+  

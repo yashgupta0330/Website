@@ -1,0 +1,294 @@
+<app-internal-loader></app-internal-loader>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top " aria-label="Offcanvas navbar large">
+  <div class="container ">
+    <a class="navbar-brand" routerLink="/">
+      <img src="assets/img/anarish-logo-4.png" alt="Anarish Innovations" class="img-fluid" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+      aria-controls="offcanvasNavbar2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+      <div class="offcanvas-header">
+        <div>
+          <a class="offcanvas-title" id="offcanvasNavbar2Label" routerLink="/">
+            <img src="assets/img/anarish-logo-4.png" alt="Anarish Innovations" />
+          </a>
+        </div>
+        <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body px-0 pt-0">
+        <ul class="navbar-nav justify-content-center flex-grow-1 ">
+
+
+          <li #dropdownElement class="nav-item dropdown has-megamenu nav-list">
+
+            <a class="nav-link nav-content-black dropdown-toggle d-flex align-items-center justify-content-between gap-2"
+              href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                <p class="mb-0">Solutions</p>
+                <img src="/assets/img/icons/dropdown.svg" [ngClass]="{ 'rotate-arrow': isSolutionsMenuOpen }"
+                  alt="arrow" />
+            </a>
+
+
+
+            <div class="dropdown-menu megamenu" role="menu">
+              <div class="container contain">
+                <div class="row">
+                  <div class=" col-md-6 col-12  mb-2 mb-lg-0 menu-col p-0">
+                    <div class="col-megamenu pe-lg-4">
+                      <a routerLink="/solutions/saas-design" class="text-decoration-none mega-link">
+                        <div class="headone d-flex align-items-start cursor-pointer">
+                          <img src="/assets/img/icons/Group.svg" class="icon-size" alt="saas">
+                          <div class="d-flex flex-column">
+                            <span class="inner-head fw-bold">SaaS Design</span>
+                            <p class="description-para mb-0">Crafting intuitive and scalable interfaces for modern SaaS
+                              products.</p>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a routerLink="/solutions/websites" class="text-decoration-none mega-link">
+                        <div class="headone d-flex align-items-start cursor-pointer">
+                          <img src="/assets/img/icons/ii 1.svg" class="icon-size" alt="websites">
+                          <div class="d-flex flex-column">
+                            <span class="inner-head fw-bold">Websites & Landing Pages</span>
+                            <p class="description-para">High-converting, responsive websites tailored for impact and
+                              engagement.</p>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a routerLink="/solutions/interactive-demos" class="text-decoration-none mega-link">
+                        <div class="headtwo d-flex align-items-start cursor-pointer">
+                          <img src="/assets/img/icons/interactivedemos.svg" class="icon-size" alt="interactive-demos">
+                          <div class="d-flex flex-column">
+                            <span class="inner-head fw-bold">Interactive Demos</span>
+                            <p class="description-para">Bringing your product to life through immersive, clickable
+                              prototypes.</p>
+                          </div>
+                        </div>
+                      </a>
+
+                    </div>
+                  </div>
+
+                  <div class=" col-md-6 col-12 mb-2 mb-lg-0 p-0 ">
+                    <div class="col-megamenu ps-lg-4">
+                      <a routerLink="/solutions/app-design" class="text-decoration-none mega-link">
+                        <div class="headthree d-flex align-items-start cursor-pointer">
+                          <img src="/assets/img/icons/mobile app 1.svg" class="icon-size" alt="app-design">
+                          <div class="d-flex flex-column">
+                            <span class="inner-head fw-bold">App Design</span>
+                            <p class="description-para">User-friendly mobile and web app designs that drive engagement.
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a routerLink="/solutions/branding" class="text-decoration-none mega-link">
+                        <div class="headthree d-flex align-items-start cursor-pointer">
+                          <img src="/assets/img/icons/branding.svg" class="icon-size" alt="branding">
+                          <div class="d-flex flex-column">
+                            <span class="inner-head fw-bold">Branding</span>
+                            <p class="description-para">Building memorable brand identities with strategy-driven design.
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+
+                      <a routerLink="/solutions/digital-marketing" class="text-decoration-none mega-link">
+                        <div class="head d-flex align-items-start cursor-pointer">
+                          <img src="/assets/img/icons/digital.svg" class="icon-size" alt="digital-marketing">
+                          <div class="d-flex flex-column">
+                            <span class="inner-head fw-bold">Digital Marketing</span>
+                            <p class="description-para">Design solutions that power your digital marketing and boost
+                              visibility.</p>
+                          </div>
+                        </div>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </li>
+
+          <li #dropdownElement class="nav-item dropdown has-megamenu nav-list">
+            <a #dropdownElement
+              class="nav-link nav-content-black dropdown-toggle d-flex align-items-center justify-content-between gap-2"
+              href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+              <p class="mb-0">Services</p>
+
+              <img src="/assets/img/icons/dropdown.svg" class="" [ngClass]="{ 'rotate-arrow': isServicesMenuOpen }"
+                alt="arrow" />
+            </a>
+
+
+            <!-- <div class="arrow">
+                            <img src="/assets/img/icons/arrow.svg" alt="arrow">
+
+            </div> -->
+            <div class="dropdown-menu megamenu" role="menu">
+              <div class="container contain">
+                <div class="row service-row">
+                  <div class="col-md-4 col-12 mb-lg-0 menu-cols menu-col">
+                    <div class="col-megamenu">
+                      <div class="service-col">
+                        <div class="ist-icon ">
+                          <div class="d-flex flex-column gap-2">
+                            <div class="ist-col  d-flex gap-2 gap-md-3">
+                              <img src="/assets/img/icons/Strategy.svg" class="icon-size" alt="strategy">
+                              <a routerLink="/strategy" class="col-head">Strategy</a>
+
+                            </div>
+
+                            <div class="coller d-flex flex-column gap-1 ps-3 ps-md-2">
+                              <a routerLink="/strategy/brand-strategy"
+                                class="fw-bold inner-para">Brand Strategy</a>
+                              <p class="child-para">Shape your brand's vision to stand out and connect with your
+                                audience.</p>
+                            </div>
+
+                            <div class="coller d-flex flex-column gap-1 ps-3 ps-md-2">
+                              <a routerLink="/strategy/ux-strategy"
+                                class="fw-bold inner-para">UX Strategy</a>
+                              <p class="child-para">User Research, Audits, Interviews, Wireframes</p>
+                            </div>
+
+                            <div class="non-coller d-flex flex-column gap-1 ps-3 ps-md-2">
+                              <a routerLink="/strategy/uiux-audit"
+                                class="fw-bold inner-para">UI/UX Audit</a>
+                              <p class="child-para">Increase Conversations and sales by margin</p>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 col-12 mb-lg-0 menu-cols menu-col">
+                    <div class="col-megamenu">
+                      <div class="service-col">
+                        <div class="ist-icon ">
+                          <div class="d-flex flex-column gap-2">
+                            <div class="ist-col d-flex gap-2 gap-md-3">
+                              <img src="/assets/img/icons/Design.svg" class="icon-size" alt="sass">
+                              <a routerLink="/design" class="col-head">Design</a>
+
+                            </div>
+
+                            <div class="coller d-flex flex-column gap-1 ps-3 ps-md-2">
+                              <a routerLink="/design/uiux-design"
+                                class="fw-bold inner-para">UI/UX Design</a>
+                              <p class="child-para">Wireframes, Prototypes, Illustrations</p>
+                            </div>
+
+                            <div class="coller d-flex flex-column gap-1 ps-3 ps-md-2">
+                              <a routerLink="/design/print-design"
+                                class="fw-bold inner-para">Print Design</a>
+                              <p class="child-para">Brochures, Packaging, Business cards, leaflets</p>
+                            </div>
+
+                            <div class="non-coller d-flex flex-column gap-1 ps-3 ps-md-2">
+                              <a routerLink="/design/identity-design"
+                                class="fw-bold inner-para">Identity Design</a>
+                              <p class="child-para">Boost learner engagement Boost learner engagement</p>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 col-12 mb-lg-0 menu-cols">
+                    <div class="col-megamenu">
+                      <div class="service-col">
+                        <div class="ist-icon  ">
+                          <div class="d-flex flex-column gap-2 gap-md-3">
+                            <div class="ist-col d-flex gap-3">
+                              <img src="/assets/img/icons/Development.svg" class="icon-size" alt="sass">
+                              <a routerLink="/development" class="col-head">Development</a>
+
+                            </div>
+
+                            <div class="coller d-flex flex-column gap-1 ps-3 ps-md-2">
+                              <a [routerLink]="['/development/no-code-development']"
+                                class="fw-bold inner-para">No Code Development</a>
+                              <p class="child-para">WordPress, Shopify, Wix and Webflow</p>
+                            </div>
+
+                            <div class="coller d-flex flex-column gap-1 ps-3 ps-md-2">
+                              <a [routerLink]="['/development/frontend-development']"
+                                class="fw-bold inner-para">Frontend Development</a>
+                              <p class="child-para">HTML, CSS, JS, React JS, Angular JS and Bootstrap</p>
+                            </div>
+
+                            <div class="non-coller d-flex flex-column gap-1 ps-3 ps-md-2">
+                              <a [routerLink]="['/development/backend-development']"
+                                class="fw-bold inner-para">Backend Development</a>
+                              <p class="child-para">My SQL, PHP Laravel, Python, Node JS, Express JS</p>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="row staff-row">
+                  <div class="col-12 p-0 mb-2 ">
+                    <div class="innerparas">
+                      <div class="ist-icon  d-flex gap-2">
+                        <img src="/assets/img/icons/staff.svg" class="icon-size" alt="sass">
+
+                        <div class="d-flex flex-column gap-1">
+                          <p class="inner-para">Staff Augmentation</p>
+                          <p class="child-para">Boost learner engagement Boost learner engagement</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="nav-item nav-list">
+            <a class="nav-link align-items-center" aria-current="page" routerLink="/portfolio"
+              routerLinkActive="active">Portfolio</a>
+          </li>
+          <li class="nav-item nav-list">
+            <a class="nav-link" aria-current="page" routerLink="/about-us" routerLinkActive="active">About Us</a>
+          </li>
+          <li class="nav-item nav-list">
+            <a class="nav-link" routerLink="/blogs" routerLinkActive="active"
+              aria-current="page">Blogs</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="nav-right d-none d-lg-block">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button>
+            <a class="btn btn-primary" routerLinkActive="active" routerLink="contact-us">Book Your Call</a>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
