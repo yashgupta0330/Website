@@ -55,7 +55,6 @@ import { SaaSComponent } from './saas/saas.component';
     QueriesComponent,
     DigitalMarketingComponent,
     AboutUsComponent,
-    ContactUsComponent,
     FilterPipe,
     BlogsComponent,
     BlogDetailsComponent,
@@ -91,7 +90,8 @@ import { SaaSComponent } from './saas/saas.component';
     ReactiveFormsModule,
     FormsModule,
     SlickCarouselModule,
-    CarouselModule
+    CarouselModule,
+    ContactUsComponent
   ],
   providers: [
     DatePipe,
