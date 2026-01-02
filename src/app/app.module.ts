@@ -13,24 +13,25 @@ import { RootComponent } from './root/root.component';
 import { MainComponent } from './main/main.component';
 import { DigitalMarketingComponent } from './digital-marketing/digital-marketing.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CommonModule, DatePipe, PathLocationStrategy, LocationStrategy } from '@angular/common';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { QueriesComponent } from './queries/queries.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { BlogsComponent } from './blogs/blogs.component';
 import { BlogDetailsComponent } from './blog-details/blog-details.component';
-import { DesignComponent } from './services/design/design.component';
-import { UiuxDesignComponent } from './services/design/uiux-design/uiux-design.component';
-import { PrintDesignComponent } from './services/design/print-design/print-design.component';
-import { IdentityDesignComponent } from './services/design/identity-design/identity-design.component';
-import { DevelopmentComponent } from './services/development/development.component';
-import { NoCodeDevelopmentComponent } from './services/development/no-code-development/no-code-development.component';
-import { FrontendDevelopmentComponent } from './services/development/frontend-development/frontend-development.component';
-import { BackendDevelopmentComponent } from './services/development/backend-development/backend-development.component';
-import { StrategyComponent } from './services/strategy/strategy.component';
-import { BrandStrategyComponent } from './services/strategy/brand-strategy/brand-strategy.component';
-import { UxStrategyComponent } from './services/strategy/ux-strategy/ux-strategy.component';
-import { UiuxAuditComponent } from './services/strategy/uiux-audit/uiux-audit.component';
+import { DesignComponent } from './Services/design/design.component';
+import { UiuxDesignComponent } from './Services/design/uiux-design/uiux-design.component';
+import { PrintDesignComponent } from './Services/design/print-design/print-design.component';
+import { IdentityDesignComponent } from './Services/design/identity-design/identity-design.component';
+import { DevelopmentComponent } from './Services/development/development.component';
+import { NoCodeDevelopmentComponent } from './Services/development/no-code-development/no-code-development.component';
+import { FrontendDevelopmentComponent } from './Services/development/frontend-development/frontend-development.component';
+import { BackendDevelopmentComponent } from './Services/development/backend-development/backend-development.component';
+import { StrategyComponent } from './Services/strategy/strategy.component';
+import { BrandStrategyComponent } from './Services/strategy/brand-strategy/brand-strategy.component';
+import { UxStrategyComponent } from './Services/strategy/ux-strategy/ux-strategy.component';
+import { UiuxAuditComponent } from './Services/strategy/uiux-audit/uiux-audit.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { WebsitesComponent } from './websites/websites.component';
 import { InteractiveDemosComponent } from './interactive-demos/interactive-demos.component';
@@ -54,6 +55,7 @@ import { SaaSComponent } from './saas/saas.component';
     QueriesComponent,
     DigitalMarketingComponent,
     AboutUsComponent,
+    ContactUsComponent,
     FilterPipe,
     BlogsComponent,
     BlogDetailsComponent,
